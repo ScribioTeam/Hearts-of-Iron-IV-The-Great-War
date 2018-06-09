@@ -2,4 +2,5 @@ localisation\
 events\
 interface\countrytechtreeview.gui
 gfx\loadingscreens\load_tfv.dds
+gfx\loadingscreens\load_5.dds
 tgw_picture.png
