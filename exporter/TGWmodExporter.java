@@ -11,9 +11,9 @@ import java.util.Comparator;
 import java.util.Scanner;
 
 public class TGWmodExporter {
-	private static String CURRENT_DIR = ".";
+	private static String CURRENT_DIR = "..";
 	private static String MOD_DIR = CURRENT_DIR + "\\mod\\thegreatwar";
-	private static String EXPORT_DIR = CURRENT_DIR + "\\export";
+	private static String EXPORT_DIR = CURRENT_DIR + "\\TGW_FR";
 
 	public static void main(String[] args) throws IOException {
 		// Delete export directory
