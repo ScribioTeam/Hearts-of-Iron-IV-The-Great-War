@@ -175,6 +175,7 @@ country_event = {
 			}
 			news_event = { days = 1 id = kis_news.5 }
 		}
+		custom_effect_tooltip = ww1_germany.20.att
 	}
 
 }

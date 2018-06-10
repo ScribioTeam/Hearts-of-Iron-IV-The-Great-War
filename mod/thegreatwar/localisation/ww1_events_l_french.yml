@@ -185,6 +185,7 @@
  ww1_germany.19.d:0 "Une assemblée nationale a été convoquée à Weimar, où une nouvelle constitution pour le Reich allemand a été écrite."
  ww1_germany.19.t:0 "La République de Weimar est proclamée."
  ww1_germany.20.a:0 "Gut!"
+ ww1_germany.20.att:0 "§HVous controllez des troupes en Afrique du Sud§!"
  ww1_germany.20.d:0 "Une révolte a eu lieu lorsque des hommes qui soutenaient la reconstitution d'une République sud-africaine boer se sont soulevés contre le gouvernement de l'Union sud-africaine."
  ww1_germany.20.t:0 "Révolte des Boers"
  ww1_germany.3.a:0 "Okay"
@@ -1681,8 +1682,10 @@
  # Treaty of Frankfurt
  ww1_frankfurt.500.t:0 "Que devrions-nous faire ?"
  ww1_frankfurt.500.d:0 "La situation en France est devenue trop lourde à supporter. \nQue devrions-nous décider ?"
- ww1_frankfurt.500.a:0 "Forcez-les à signer un traité"
+ ww1_frankfurt.500.a:0 "Forcez-les à signer un traité."
+ ww1_frankfurt.500.att:0 "§HCela mettra fin à la Grande Guerre avec un traité réaliste§!\n\n"
  ww1_frankfurt.500.b:0 "Le combat continuera"
+ ww1_frankfurt.500.btt:0 "§HCela vous permet de continuer la guerre jusqu'à la capitulation sans conditions des grandes puissances ennemies pour utiliser le système de paix de HoI 4§!"
 
  ww1_frankfurt.1.t:0 "Deuxième traité de Francfort"
  ww1_frankfurt.1.d:0 "Lors d'une réunion secrète à Francfort, les représentants britanniques, français, allemands et autrichiens se sont mis d'accord pour arrêter la guerre sur le front occidental.\nLes Français reconnaissent maintenant la légitimité des peuples germaniques à disposer les territoires du Rhin. et de la Meuse. Ils reconnaissent aussi l'autorité allemande sur les colonies et protectorats ouest-africain ainsi que sur le Maroc et le Somaliland allemand.\n De leur côté, les Britanniques abandonnent leurs revendications sur Walvis Bay et les rétrocèdent aux Allemands, ils acceptent de faire de même pour le Bornéo du Nord qu'ils ont rétrocédé aux Autrichiens. \n\nCes accords devraient mettre le Monde en paix pour un moment ..."

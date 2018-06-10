@@ -141,6 +141,7 @@ country_event = {
 	option = {		
 		name = ww1_frankfurt.500.a
 		ai_chance = { factor = 100 }
+		custom_effect_tooltip = ww1_frankfurt.500.att
 		FRA = {
 			country_event = { days = 1 id = ww1_frankfurt.3 }
   		}
@@ -152,7 +153,8 @@ country_event = {
 	# The Player chooses the Peace Conference Mechanism
 	option = {
 		name = ww1_frankfurt.500.b
-		ai_chance = { factor = 0 }		
+		ai_chance = { factor = 0 }	
+		custom_effect_tooltip = ww1_frankfurt.500.btt		
   		hidden_effect = {
   			set_global_flag = kis_player_decided_ger_surrend
   		}
