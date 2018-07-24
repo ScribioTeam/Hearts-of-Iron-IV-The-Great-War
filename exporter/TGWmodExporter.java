@@ -16,15 +16,16 @@ public class TGWmodExporter {
 	private static String EXPORT_DIR = CURRENT_DIR + "\\TGW_FR";
 
 	public static void main(String[] args) throws IOException {
+		String exportDir = (args.length > 0) ? args[0] : EXPORT_DIR;
 		// Delete export directory
-		Path path = new File(EXPORT_DIR).toPath();
+		Path path = new File(exportDir).toPath();
 		try {
 			Files.walk(path).sorted(Comparator.reverseOrder()).map(Path::toFile).forEach(File::delete);
 		} catch (Exception e) {
 		}
 
 		// Create export directory
-		createDir(EXPORT_DIR);
+		createDir(exportDir);
 
 		// Read files to export
 		FileInputStream f = null;
@@ -39,9 +40,9 @@ public class TGWmodExporter {
 					continue;
 				}
 				if (sLine.endsWith("\\")) {
-					copyDirectory(sLine);
+					copyDirectory(sLine, exportDir);
 				} else {
-					copyFile(sLine);
+					copyFile(sLine, exportDir);
 				}
 			}
 
@@ -68,7 +69,7 @@ public class TGWmodExporter {
 		}
 	}
 	
-	private static void copyFile(String fileName) throws IOException {
+	private static void copyFile(String fileName, String exportDir) throws IOException {
 		String[] dirs = fileName.split("\\\\");
 		if (dirs.length > 1)
 		{
@@ -76,22 +77,22 @@ public class TGWmodExporter {
 			for (int i = 0; i < dirs.length - 1; i++ )
 			{
 				dirName += dirs[i];
-				createDir(EXPORT_DIR + "\\" + dirName);
+				createDir(exportDir + "\\" + dirName);
 				dirName += "\\";
 			}			
 		}
-		Files.copy(new File(MOD_DIR + "\\" + fileName).toPath(), new File(EXPORT_DIR + "\\" + fileName).toPath(),
+		Files.copy(new File(MOD_DIR + "\\" + fileName).toPath(), new File(exportDir + "\\" + fileName).toPath(),
 				StandardCopyOption.REPLACE_EXISTING);
 	}
 
-	private static void copyDirectory(String directoryName) throws IOException {
+	private static void copyDirectory(String directoryName, String exportDir) throws IOException {
 		File dir = new File(MOD_DIR + "\\" + directoryName);
-		createDir(EXPORT_DIR + "\\" + directoryName);
+		createDir(exportDir + "\\" + directoryName);
 		for (File file : dir.listFiles()) {
 			if (file.isDirectory()) {
-				copyDirectory(directoryName + "\\" + file.getName() + "\\");
+				copyDirectory(directoryName + "\\" + file.getName() + "\\", exportDir);
 			} else {
-				copyFile(directoryName + file.getName());
+				copyFile(directoryName + file.getName(), exportDir);
 			}
 		}
 	}
