@@ -1,0 +1,44 @@
+[h1]MOTIVATION[/h1]
+Le mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=699709023]The Great War[/url] inclut déjà une partie de notre traduction française cependant celle-ci est incomplète pour 2 raisons :
+[list]
+[*] Le mod The Great War n'inclut pas la dernière version de notre travail à cause du faible nombre de mises à jour
+[*] Une partie de notre travail n'est pas compatible avec la version anglaise du mod et donc ne sera jamais intégrée.
+[/list]
+
+Pour répondre à ces 2 problèmes, un sous-mod de traduction améliorée s'imposait.
+
+[h1]UTILISATION[/h1]
+[list]
+[*] Abonnez-vous à ce mod
+[*] Abonnez-vous au mod The Great War
+[/list]
+
+[h1]CONTRIBUTION[/h1]
+Il y a différentes manières de contribuer à ce projet.
+
+[list]
+[*]INDIQUER LES ERREURS
+Indiquez nous les erreurs de syntaxe, orthographe, conjugaison ... sur [url=http://forum.reseau-js.com/topic/95287-traduction-the-great-war-pour-hoi-4/]le forum RGS[/url]
+
+[*]TRADUIRE/CORRIGER DES ERREURS
+Rendez-vous [url=https://github.com/NicolasGrosjean/Hearts-of-Iron-IV-The-Great-War/tree/fr+]sur GitHub[/url] pour plus d'informations.
+
+[*]AJOUTER DES DESCRIPTIONS DE MATERIEL, FOCUS ...
+Rendez-vous [url=https://github.com/NicolasGrosjean/Hearts-of-Iron-IV-The-Great-War/tree/fr+]sur GitHub[/url] pour plus d'informations.
+[/list]
+
+[h1]CONTRIBUTEURS[/h1]
+[list]
+[*] Polemarque
+[*] AlainEtCo
+[*] Mindeufair
+[*] GABRIELN13
+[*] Mouchi
+[/list]
+
+[h1]AUTRES REMERCIEMENTS[/h1]
+[list]
+[*] Wolferos et les autres contributeurs du mod The Great War
+[*] Elfryc pour [url=http://forum.reseau-js.com/topic/93629-traduction-am%C3%A9lior%C3%A9e-jean-de-lattre-de-tassigny/]la traduction de Hearts of Iron IV[/url]
+[*] Jay's pour [url=https://www.youtube.com/watch?v=mrOWLOiDlpI&list=PLwN5tmMR349LSGTZyDeUrQK9xweMiMz4i]son let's play avec notre traduction[/url] qui donne un sens à notre travail et qui exhibe des choses à corriger
+[/list]
