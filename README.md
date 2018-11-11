@@ -4,11 +4,14 @@
 ## Présentation
 
 ### Motivation
+
 **The Great War** a été créé par Wolferos avec l'aide de la communauté et fait partie des meilleurs mods pour Hearts of Iron IV.
 
 Ce dépôt a pour but d'améliorer la traduction française de ce mod.
 
+
 ### Organisation
+
 
 La branche *develop* contient le mod ainsi que des améliorations de la traduction française compatibles avec la version anglais.
 Ces modifications seront intégrées un jour par Wolferos, et sont intégrées dans [le mod de contribution de la communauté](https://github.com/dthird3/TGW-Improvement).
@@ -51,6 +54,7 @@ Il ne s'agit plus ici de traduire du texte anglais mais de se documenter et de f
 Ce travail se partage de la même façon que la traduction et la correction d'erreurs.
 
 ## Remerciements pour la traduction française
+
 Les personnes suivantes ont participé à la traduction française :
 - Polemarque
 - AlainEtCo
@@ -59,6 +63,7 @@ Les personnes suivantes ont participé à la traduction française :
 - Mouchi
 
 ## Autres remerciements
+
 - Elfryc pour [la traduction de Hearts of Iron IV](http://forum.reseau-js.com/topic/93629-traduction-am%C3%A9lior%C3%A9e-jean-de-lattre-de-tassigny/)
 - Jay's pour [son let's play avec notre traduction](https://www.youtube.com/watch?v=mrOWLOiDlpI&list=PLwN5tmMR349LSGTZyDeUrQK9xweMiMz4i) qui donne un sens à notre travail et qui exhibe des choses à corriger
 
@@ -102,6 +107,8 @@ Le mod The Great War a été possible grâce à la communauté, en particulier g
    - Felixiinho
    - NicolasGrosjean
    - GABRIELN13
+   - Honeymaple
+   - habbala
 
 ## Mods inclus dans le mod
 
