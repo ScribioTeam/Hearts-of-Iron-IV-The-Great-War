@@ -9,7 +9,6 @@
 
 Ce dépôt a pour but d'améliorer la traduction française de ce mod.
 
-
 ### Organisation
 
 
@@ -109,6 +108,7 @@ Le mod The Great War a été possible grâce à la communauté, en particulier g
    - GABRIELN13
    - Honeymaple
    - habbala
+   - SandwichPhil 
 
 ## Mods inclus dans le mod
 
