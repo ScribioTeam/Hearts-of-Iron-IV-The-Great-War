@@ -389,23 +389,15 @@ focus_tree = {
 				EGY = {
 					kill_country_leader = yes
 					set_politics = {
-					    parties = {
-					        neutrality = {
-					            popularity = 0
-					        }
-					        fascism = {
-					            popularity = 0
-					        }
-					        democratic = {
-					            popularity = 100
-					        }
-					        communism = {
-					            popularity = 0
-					        }
-					    }
 					    ruling_party = democratic last_election = "1911.7.1"
 					    election_frequency = 48 
 					    elections_allowed = no
+					}
+					set_popularities = {
+						neutrality = 0
+						fascism = 0
+						democratic = 100
+						communism = 0
 					}					
 					add_popularity = {
 						ideology = democratic
@@ -708,12 +700,12 @@ focus_tree = {
 	   		date<1925.12.30
 	  	}
 		completion_reward = {
-			HJZ={
-		   		country_event=ww1_hejaz.8
+			HJZ = {
+		   		# country_event = ww1_hejaz.8
 		   	}
-	  		set_global_flag=te_lawrence
+	  		set_global_flag = te_lawrence
 		}
-		ai_will_do = { factor = 20 }
+		ai_will_do = { factor = 0 }
 		cost = 10
 		x = 8
 		y = 8
@@ -740,11 +732,11 @@ focus_tree = {
 		  	date<1925.12.30
 	  	}
 		completion_reward = {
-			HJZ={
-				   country_event=ww1_hejaz.7
-				   }
+			HJZ = {
+				   # country_event = ww1_hejaz.7
+			   }
 			}
-		ai_will_do = { factor = 20 }
+		ai_will_do = { factor = 0 }
 		cost = 10
 		x = 10
 		y = 8

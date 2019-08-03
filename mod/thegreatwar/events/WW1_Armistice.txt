@@ -250,23 +250,15 @@ news_event = {
 			}
 			GER = {
 				set_politics = {
-				    parties = {
-				        neutrality = {
-				            popularity = 10
-				        }
-				        fascism = {
-				            popularity = 5
-				        }
-				        democratic = {
-				            popularity = 80
-				        }
-				        communism = {
-				            popularity = 5
-				        }
-				    }
 				    ruling_party = democratic last_election = "1911.7.1"
 				    election_frequency = 48 elections_allowed = yes
 				}
+				set_popularities = {
+					neutrality = 10
+					fascism = 5
+					democratic = 80
+					communism = 5
+				}	
 			}
 
 			if = {
@@ -471,6 +463,16 @@ news_event = {
 
 			ROM = {
 				transfer_state = 78
+				transfer_state = 766
+				transfer_state = 80
+				transfer_state = 79
+				transfer_state = 46
+				transfer_state = 77
+				transfer_state = 81
+				transfer_state = 82
+				transfer_state = 83
+				transfer_state = 84
+				transfer_state = 76
 			}
 
 			ITA = {
@@ -493,6 +495,7 @@ news_event = {
 				transfer_state = 769
 				transfer_state = 539
 				transfer_state = 755
+				transfer_state = 774	# Entenschnabel
 			}
 
 			SAF = {
@@ -526,6 +529,7 @@ news_event = {
 				transfer_state = 189
 				transfer_state = 188
 				transfer_state = 11
+				transfer_state = 784
 			}
 
 			GRE = {
@@ -611,23 +615,15 @@ country_event = {
 			#		traits = { }
 			#	}
 				set_politics = {
-				    parties = {
-				        neutrality = {
-				            popularity = 10
-				        }
-				        fascism = {
-				            popularity = 5
-				        }
-				        democratic = {
-				            popularity = 80
-				        }
-				        communism = {
-				            popularity = 5
-				        }
-				    }
 				    ruling_party = democratic last_election = "1911.7.1"
 				    election_frequency = 48 elections_allowed = yes
 				}
+				set_popularities = {
+						neutrality = 10
+						fascism = 5
+						democratic = 80
+						communism = 5
+					}	
 			}
 		}
 	}

@@ -3,6 +3,7 @@
 #-------------------------------------------------------
 #					GENERIC VALUES
 #-------------------------------------------------------
+set_fuel_ratio = 0.44
 set_research_slots = 4
 set_stability = 0.7
 set_war_support = 0.80
@@ -267,19 +268,16 @@ create_navy_leader={
 	}
 
 	set_politics = {
-	    parties = {
-	        democratic = {
-	            popularity = 85
-	        }
-	        fascism = {
-	            popularity = 2
-	        }
-	        communism = {
-	            popularity = 13
-	        }
-	    }
-	    ruling_party = democratic last_election = "1910.4.30"
-	    election_frequency = 48 elections_allowed = yes
+	    ruling_party = democratic
+	    last_election = "1910.4.30"
+	    election_frequency = 48
+	    elections_allowed = yes
+	}
+	set_popularities = {
+	    democratic = 85
+	    fascism = 2
+	    communism = 12
+	    neutrality = 1
 	}
 
 	add_ideas = {
@@ -392,6 +390,7 @@ create_navy_leader={
 	add_to_faction = BHU
 	add_to_faction = NEP
 	add_to_faction = RAJ
+	add_to_faction = SAF
 
 
 	#-------------------------------------------------------
@@ -533,19 +532,16 @@ create_navy_leader={
 	}
 
 	set_politics = {
-	    parties = {
-	        democratic = {
-	            popularity = 85
-	        }
-	        fascism = {
-	            popularity = 2
-	        }
-	        communism = {
-	            popularity = 13
-	        }
-	    }
-	    ruling_party = democratic last_election = "1910.4.30"
-	    election_frequency = 48 elections_allowed = yes
+	    ruling_party = democratic
+	    last_election = "1910.4.30"
+	    election_frequency = 48
+	    elections_allowed = yes
+	}
+	set_popularities = {
+	    democratic = 85
+	    fascism = 2
+	    communism = 12
+	    neutrality = 1
 	}
 
 	add_ideas = {
@@ -586,6 +582,9 @@ create_equipment_variant={ name="Aventurier Class" type=destroyer_1910 parent_ve
 	set_global_flag = kis_roland_garros
 	set_global_flag = kis_xinhaire_end
 
+	set_global_flag = kingdom_montenegro_proclaimed
 	set_global_flag = kis_start_1914
+
+
 
 }

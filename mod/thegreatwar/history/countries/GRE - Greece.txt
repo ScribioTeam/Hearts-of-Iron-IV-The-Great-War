@@ -3,6 +3,7 @@
 #-------------------------------------------------------
 #					GENERIC VALUES
 #-------------------------------------------------------
+set_fuel_ratio = 0.20
 set_research_slots = 3
 set_stability = 0.75
 set_war_support = 0.70
@@ -13,9 +14,12 @@ set_convoys = 10
 #-------------------------------------------------------
 create_country_leader={ name = "Alexandros I" desc=GRE_alexandros_i_DESC picture="gfx/leaders/GRE_alexandros_i.dds" expire="1935.1.1" ideology=liberalism traits={  } }
 create_country_leader={ name = "George I" desc=GRE_george_i_DESC picture="gfx/leaders/GRE_george_i.dds" expire="1935.1.1" ideology=despotism  traits={  } }
-create_corps_commander={  name = "Danglis" id=35004 portrait_path="gfx/generals/GRE_danglis.tga" traits={ trait_engineer  } skill=3 }
-create_corps_commander={  name = "Trikoupis" id=35005 portrait_path="gfx/generals/GRE_trikoupis.tga" traits={   } skill=3 }
-create_corps_commander={  name = "Dousmanis" id=35010 portrait_path="gfx/generals/GRE_dousmanis.tga" traits={   } skill=2 }
+
+# Open Beta 0.7.3 #
+create_corps_commander={  name = "Panagiótis Danglís" id=35004 portrait_path="gfx/hoi4tgw_portraits/GRE/army_generals/GRE_panagiotis_danglis.dds" traits={ trait_engineer  } skill=3 }
+create_corps_commander={  name = "Nikolaos Trikoupis" id=35005 portrait_path="gfx/hoi4tgw_portraits/GRE/army_generals/GRE_nikolaos_trikoupis.dds" traits={   } skill=3 }
+create_corps_commander={  name = "Víctor Doúsmanis" id=35010 portrait_path="gfx/hoi4tgw_portraits/GRE/army_generals/GRE_victor_dousmanis.dds" traits={   } skill=2 }
+
 create_corps_commander={  name = "Bairas" id=35011 portrait_path="gfx/generals/GRE_bairas.tga" traits={   } skill=2 }
 create_corps_commander={  name = "Zymvrakakis E." id=35014 portrait_path="gfx/generals/GRE_zymvrakakis_e.tga" traits={   } skill=3 }
 create_corps_commander={  name = "Nider" id=35016 portrait_path="gfx/generals/GRE_nider.tga" traits={   } skill=2 }
@@ -116,22 +120,16 @@ set_technology = {
 	}
 
 	set_politics = {
-	    parties = {
-	        democratic = {
-	            popularity = 10
-	        }
-	        fascism = {
-	            popularity = 5
-	        }
-	        communism = {
-	            popularity = 2
-	        }
-	        neutrality = {
-	            popularity = 83
-	        }
-	    }
-	    ruling_party = neutrality last_election = "1906.5.31"
-	    election_frequency = 48 elections_allowed = yes
+	    ruling_party = neutrality
+	    last_election = "1906.5.31"
+	    election_frequency = 48
+	    elections_allowed = yes
+	}
+	set_popularities = {
+	    democratic = 10
+	    fascism = 5
+	    communism = 2
+	    neutrality = 83
 	}
 
 	add_ideas = {
@@ -240,22 +238,16 @@ create_equipment_variant={ name="Hellas Class" type=light_cruiser_1890 parent_ve
 	}
 
 	set_politics = {
-	    parties = {
-	        democratic = {
-	            popularity = 90
-	        }
-	        fascism = {
-	            popularity = 5
-	        }
-	        communism = {
-	            popularity = 5
-	        }
-	        neutrality = {
-	            popularity = 0
-	        }
-	    }
-	    ruling_party = democratic last_election = "1911.5.28"
-	    election_frequency = 48 elections_allowed = yes
+	    ruling_party = democratic
+	    last_election = "1911.5.28"
+	    election_frequency = 48
+	    elections_allowed = yes
+	}
+	set_popularities = {
+	    democratic = 89
+	    fascism = 5
+	    communism = 5
+	    neutrality = 1
 	}
 
 	add_ideas = {

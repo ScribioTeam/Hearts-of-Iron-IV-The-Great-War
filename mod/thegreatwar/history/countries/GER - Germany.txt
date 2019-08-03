@@ -3,6 +3,7 @@
 #-------------------------------------------------------
 #					GENERIC VALUES
 #-------------------------------------------------------
+set_fuel_ratio = 0.70
 set_research_slots = 4
 set_stability = 0.7
 set_war_support = 0.85
@@ -416,22 +417,16 @@ create_navy_leader={  name = "Max von Fischel" id=34314 portrait_path="gfx/admir
 	}
 
 	set_politics = {
-	    parties = {
-	        democratic = {
-	            popularity = 10
-	        }
-	        fascism = {
-	            popularity = 8
-	        }
-	        communism = {
-	            popularity = 2
-	        }
-	        neutrality = {
-	            popularity = 80
-	        }
-	    }
-	    ruling_party = neutrality last_election = "1907.1.25"
-	    election_frequency = 60 elections_allowed = yes
+	    ruling_party = neutrality
+	    last_election = "1907.1.25"
+	    election_frequency = 60
+	    elections_allowed = yes
+	}
+	set_popularities = {
+	    democratic = 10
+	    fascism = 8
+	    communism = 2
+	    neutrality = 80
 	}
 
 	add_ideas = {
@@ -645,22 +640,16 @@ create_navy_leader={  name = "Max von Fischel" id=34314 portrait_path="gfx/admir
 	}
 
 	set_politics = {
-	    parties = {
-	        democratic = {
-	            popularity = 10
-	        }
-	        fascism = {
-	            popularity = 9
-	        }
-	        communism = {
-	            popularity = 1
-	        }
-	        neutrality = {
-	            popularity = 80
-	        }
-	    }
-	    ruling_party = neutrality last_election = "1912.1.12"
-	    election_frequency = 60 elections_allowed = yes
+	    ruling_party = neutrality
+	    last_election = "1912.1.12"
+	    election_frequency = 60
+	    elections_allowed = yes
+	}
+	set_popularities = {
+	    democratic = 9
+	    fascism = 9
+	    communism = 3
+	    neutrality = 79
 	}
 
 	add_ideas = {

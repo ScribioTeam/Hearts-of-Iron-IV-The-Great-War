@@ -3,6 +3,7 @@
 #-------------------------------------------------------
 #					GENERIC VALUES
 #-------------------------------------------------------
+set_fuel_ratio = 0.26
 set_research_slots = 4
 set_stability = 0.6
 set_war_support = 0.60
@@ -127,19 +128,16 @@ create_navy_leader={  name = "Marcello Amero d'Aste-Stella" id=46076 portrait_pa
 	}
 
 	set_politics = {
-	    parties = {
-	        democratic = {
-	            popularity = 85
-	        }
-	        fascism = {
-	            popularity = 5
-	        }
-	        communism = {
-	            popularity = 10
-	        }
-	    }
-	    ruling_party = democratic last_election = "1909.3.14"
-	    election_frequency = 48 elections_allowed = yes
+	    ruling_party = democratic
+	    last_election = "1909.3.14"
+	    election_frequency = 48
+	    elections_allowed = yes
+	}
+	set_popularities = {
+	    democratic = 85
+	    fascism = 5
+	    communism = 9
+	    neutrality = 1
 	}
 
 	add_ideas = {
@@ -316,19 +314,16 @@ create_navy_leader={  name = "Marcello Amero d'Aste-Stella" id=46076 portrait_pa
 	}
 
 	set_politics = {
-	    parties = {
-	        democratic = {
-	            popularity = 85
-	        }
-	        fascism = {
-	            popularity = 5
-	        }
-	        communism = {
-	            popularity = 10
-	        }
-	    }
-	    ruling_party = democratic last_election = "1913.11.1"
-	    election_frequency = 48 elections_allowed = yes
+	    ruling_party = democratic
+	    last_election = "1913.11.1"
+	    election_frequency = 48
+	    elections_allowed = yes
+	}
+	set_popularities = {
+	    democratic = 85
+	    fascism = 5
+	    communism = 9
+	    neutrality = 1
 	}
 
 	add_ideas = {
