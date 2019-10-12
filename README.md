@@ -11,7 +11,6 @@ Ce dépôt a pour but d'améliorer la traduction française de ce mod.
 
 ### Organisation
 
-
 La branche *develop* contient le mod ainsi que des améliorations de la traduction française compatibles avec la version anglais.
 Ces modifications seront intégrées un jour par Wolferos, et sont intégrées dans [le mod de contribution de la communauté](https://github.com/dthird3/TGW-Improvement).
 
@@ -28,7 +27,6 @@ Si vous comptez modifier la traduction
 > - Windows: ...\Documents\Paradox Interactive\Hearts of Iron IV\mod\
 > - Linux: ~/.paradoxinteractive/Hearts of Iron IV/mod/ or ~/.local/share/Paradox Interactive/Hearts of Iron IV/mod/
 > - Mac: ~/Documents/Paradox Interactive/Hearts of Iron IV/mod/
-
 
 ## Contribuer à la traduction française améliorée
 
@@ -113,5 +111,5 @@ Le mod The Great War a été possible grâce à la communauté, en particulier g
 ## Mods inclus dans le mod
 
 [Flickering Flags Fix](http://steamcommunity.com/sharedfiles/filedetails/?id=850835220) made by Chairman Meow
-
 [Austro-Hungarians Voices](http://steamcommunity.com/sharedfiles/filedetails/?id=946923873) made by Geodomus
+
