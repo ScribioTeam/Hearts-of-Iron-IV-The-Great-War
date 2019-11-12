@@ -107,6 +107,9 @@ Le mod The Great War a été possible grâce à la communauté, en particulier g
    - Honeymaple
    - habbala
    - SandwichPhil 
+   - Comrader
+   - Veydem
+   - Sgerhardt
 
 ## Mods inclus dans le mod
 
