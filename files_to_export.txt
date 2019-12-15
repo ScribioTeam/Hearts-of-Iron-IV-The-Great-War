@@ -4,3 +4,4 @@ interface\countrytechtreeview.gui
 tgw_picture.png
 common\national_focus\netherlands.txt
 common\national_focus\ottoman.txt
+descriptor.mod
