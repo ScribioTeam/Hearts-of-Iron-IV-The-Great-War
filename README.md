@@ -110,6 +110,7 @@ Le mod The Great War a été possible grâce à la communauté, en particulier g
    - Comrader
    - Veydem
    - Sgerhardt
+   - Von Thoma
 
 ## Mods inclus dans le mod
 
