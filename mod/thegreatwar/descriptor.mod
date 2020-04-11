@@ -8,6 +8,6 @@ tags={
 	"Translation"
 }
 picture="tgw_picture.png"
-version="0.9.2a"
+version="0.10.1"
 remote_file_id="1406871832"
 supported_version="1.9.*"
