@@ -13,6 +13,13 @@ Pour répondre à ces 2 problèmes, un sous-mod de traduction améliorée s'impo
 [*] Abonnez-vous au mod The Great War
 [/list]
 
+En cas d'erreur vous pouvez utiliser la version standalone incluant The Great War et ce mod.
+[list]
+[*] Téléchargez la version standalone : https://github.com/ScribioTeam/Hearts-of-Iron-IV-The-Great-War/archive/fr+.zip
+[*] Extraire l'archive
+[*] Déplacer le contenu du dossier mod/ dans Documents\Paradox Interactive\Hearts of Iron IV\mod/
+[/list]
+
 [h1]CONTRIBUTION[/h1]
 Il y a différentes manières de contribuer à ce projet.
 
