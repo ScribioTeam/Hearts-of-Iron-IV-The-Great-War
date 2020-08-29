@@ -1,5 +1,4 @@
 name="- The Great War - Traduction française améliorée"
-replace_path="history/states"
 path="mod/TGW_FR/"
 dependencies={
 	"Hearts of Iron IV: The Great War"
