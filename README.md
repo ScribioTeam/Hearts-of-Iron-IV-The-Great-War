@@ -111,6 +111,8 @@ Le mod The Great War a été possible grâce à la communauté, en particulier g
    - Veydem
    - Sgerhardt
    - Von Thoma
+   - Lord Butxot
+   - Canadian Lemur
 
 ## Mods inclus dans le mod
 
