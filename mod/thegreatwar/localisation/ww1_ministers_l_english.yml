@@ -1739,6 +1739,9 @@
  QIN_kang_youwei:0 "Kang Youwei"
  QIN_liang_qichao:0 "Liang Qichao"
  QIN_jiang_kanghu:0 "Jiang Kanghu"
+
+ SPR_marina_vega:0 "José Marina Vega"
+ SPR_vives_vich:0 "Pedro Vives Vich"
  SPR_juan_de_la_cierva_y_codorniu:0 "Juan de la Cierva y Codorniú"
  SPR_alfredo_kindelan:0 "Alfredo Kindelán"
  SPR_ramon_franco:0 "Ramón Franco"
@@ -2265,6 +2268,7 @@
  USA_john_c_bates:0 "John C. Bates"
  USA_j_franklin_bell:0 "J. Franklin Bell"
  USA_william_w_wotherspoon:0 "William W. Wotherspoon"
+ USA_john_rockefeller:0 "John Rockefeller"
  USA_hugh_l_scott:0 "Hugh L. Scott"
  USA_tasker_h_bliss:0 "Tasker H. Bliss"
  USA_peyton_c_march:0 "Peyton C. March"

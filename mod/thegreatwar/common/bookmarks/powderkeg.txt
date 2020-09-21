@@ -154,11 +154,13 @@ bookmarks = {
 			history = "BEL_POWDERKEG_DESC"
 			ideology = democratic
 			ideas = {
-				ww1_1839_agreement
+				ww1_idea_1839_agreement
 				ww1_Scramble_for_Africa
 			}
 			focuses = {
-
+				BEL_adios_1839_agreement
+				BEL_ww1_congo_infra
+				BEL_ww1_CongoFreeState
 			}
 		}
 
