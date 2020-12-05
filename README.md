@@ -113,9 +113,9 @@ Le mod The Great War a été possible grâce à la communauté, en particulier g
    - Von Thoma
    - Lord Butxot
    - Canadian Lemur
+   - asemiashkin
 
 ## Mods inclus dans le mod
-
+----------
 [Flickering Flags Fix](http://steamcommunity.com/sharedfiles/filedetails/?id=850835220) made by Chairman Meow
 [Austro-Hungarians Voices](http://steamcommunity.com/sharedfiles/filedetails/?id=946923873) made by Geodomus
-
