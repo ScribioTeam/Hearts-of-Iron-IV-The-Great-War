@@ -19,7 +19,7 @@
  heavy_field_gun_equipment_1:0 "Artillerie de siège"
  heavy_field_gun_equipment_1_desc:0 "L'artillerie de siège (également appelée canons de siège) est un canon lourd conçu pour bombarder les fortifications, les villes et autres cibles fixes. Ils se distinguent de l'artillerie de campagne et constituent une classe d'armes de siège capables de tirer des boulets ou des obus lourds dont le fonctionnement nécessite d'énormes moyens de transport et de soutien logistique. Elles manquent de mobilité et sont donc rarement utiles dans des situations de guerre plus mobiles, ayant généralement été remplacées par de l'artillerie de gros calibre comme les obusiers lourds."
  heavy_field_gun_equipment_2:0 "Artillerie lourde"
- heavy_field_gun_equipment_2_desc:0 "Alors que la Première Guerre mondiale s'installe dans la Guerre des Tranchées sur le front occidental, les canons légers de campagne avec lesquels les combattants entrent en guerre commencent à montrer leurs limites face à un ennemi désormais retranché dans des positions préparées. Les tirs indirects, les tirs d'interdiction et de contre-batterie soulignaient l'importance de l'artillerie lourde à longue portée."
+ heavy_field_gun_equipment_2_desc:0 "Alors que la Première guerre mondiale s'installe dans la Guerre des Tranchées sur le front occidental, les canons légers de campagne avec lesquels les combattants entrent en guerre commencent à montrer leurs limites face à un ennemi désormais retranché dans des positions préparées. Les tirs indirects, les tirs d'interdiction et de contre-batterie soulignaient l'importance de l'artillerie lourde à longue portée."
  heavy_field_gun_equipment_3:0 "Artillerie lourde avancée"
  heavy_field_gun_equipment_3_desc:0 "L'intérêt pour un canon de siège amélioré s'est éteint jusqu'à la guerre russo-japonaise, pendant laquelle l'armée japonaise a utilisé des mortiers côtiers amenés du Japon pour mettre fin au siège de Port Arthur, qui a duré 11 mois. Helmuth von Moltke le Jeune, chef de l'état-major général, vit l'utilité d'un nouveau canon de siège plus grand et, en 1906, il chargea la Artillerieprüfungskommission de procéder à une évaluation plus poussée du Beta-Gerät. Après des difficultés initiales de pénétration, le Gamma-Gerät de 42 cm fut accepté dans l'armée allemande."
  heavy_field_gun_equipment_4:0 "Artillerie lourde d'entre-deux guerres"
@@ -70,14 +70,22 @@
  SOV_heavy_field_gun_equipment_4:0 "203mm M1931 B-4"
  SOV_heavy_field_gun_equipment_4_desc:0 "Le premier prototype d'obusier B-4 a été fabriqué dans l'usine bolchevique au début de 1931. Des essais de tir ont été effectués de juillet à août 1931 dans le but de choisir les obus appropriés pour le B-4. L'obusier a été accepté en service comme obusier de 203 mm modèle 1931 après des essais approfondis sur le terrain et au combat en 1933."
 
+ # ITALY ###########################################################################
  ITA_light_field_gun1:0 "75/25 model 6"
+ ITA_light_field_gun1_short:0 "Cannone 75/25 modello 6"
+ ITA_light_field_gun1_desc:0 "Le Cannone da 75/27 modello 06 était un canon de campagne utilisé par l'Italie pendant la première et la deuxième guerre mondiale. Il s'agissait d'une copie sous licence du canon Krupp Kanone M 1906."
+
+ ITA_light_field_gun2:0 "Cannone 75/27 modello 12"
+ ITA_light_field_gun2_short:0 "Cannone 75/27 modello 12"
+ ITA_light_field_gun2_desc:0 "Le Cannone da 75/27 modello 12 était un modello 06 modifié pour une plus grande élévation et un poids plus léger. Seuls de petits nombres semblent avoir été produits."
+
+
  RUS_light_field_gun1:0 "76 mm gun model 1900"
  GER_light_field_gun1:0 "77mm FK96 "
  AUH_light_field_gun1:0 "8 cm Feldkanone M. 99"
  TUR_light_field_gun1:0 "Krupp 75mm M1903"
  JAP_light_field_gun1:0 "Type 35/38 75mm"
  USA_light_field_gun1:0 "4.7inch M1906"
- ITA_light_field_gun2:0 "Cannone 75/27 modello 12"
  RUS_light_field_gun2:0 "76.2 mm divisional gun model 1902"
  GER_light_field_gun2:0 "Krupp 75mm M1903"
  AUH_light_field_gun2:0 "Skoda 75mm Mountain Gun M1909"
@@ -163,14 +171,12 @@
  USA_antiair2:0 "3inch M1917"
  GER_antitank1:0 "3.7 cm TaK Rheinmetall"
 
- ITA_light_field_gun1_short:0 "Cannone 75/25 modello 6"
  RUS_light_field_gun1_short:0 "76 mm gun model 1900"
  GER_light_field_gun1_short:0 "77mm FK96 "
  AUH_light_field_gun1_short:0 "8 cm Feldkanone M. 99"
  TUR_light_field_gun1_short:0 "Krupp 75mm M1903"
  JAP_light_field_gun1_short:0 "Type 35/38 75mm"
  USA_light_field_gun1_short:0 "4.7inch M1906"
- ITA_light_field_gun2_short:0 "Cannone 75/27 modello 12"
  RUS_light_field_gun2_short:0 "76.2 mm divisional gun model 1902"
  GER_light_field_gun2_short:0 "Krupp 75mm M1903"
  AUH_light_field_gun2_short:0 "Skoda 75mm Mountain Gun M1909"
@@ -253,14 +259,13 @@
  USA_antiair2_short:0 "3inch M1917"
  GER_antitank1_short:0 "3.7 cm TaK Rheinmetall"
 
- ITA_light_field_gun1_desc:0 "TODO"
+
  RUS_light_field_gun1_desc:0 "TODO"
  GER_light_field_gun1_desc:0 "TODO"
  AUH_light_field_gun1_desc:0 "TODO"
  TUR_light_field_gun1_desc:0 "TODO"
  JAP_light_field_gun1_desc:0 "TODO"
  USA_light_field_gun1_desc:0 "TODO"
- ITA_light_field_gun2_desc:0 "TODO"
  RUS_light_field_gun2_desc:0 "TODO"
  GER_light_field_gun2_desc:0 "TODO"
  AUH_light_field_gun2_desc:0 "TODO"

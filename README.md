@@ -12,7 +12,7 @@ Ce dépôt a pour but d'améliorer la traduction française de ce mod.
 ### Organisation
 
 La branche *develop* contient le mod ainsi que des améliorations de la traduction française compatibles avec la version anglais.
-Ces modifications seront intégrées un jour par Wolferos, et sont intégrées dans [le mod de contribution de la communauté](https://github.com/dthird3/TGW-Improvement).
+Ces modifications seront intégrées au patch suivant par Wolferos.
 
 La branche *fr+* contient en plus des améliorations non compatibles avec la version anglaise qui sont publiées dans [un mod à part](https://steamcommunity.com/sharedfiles/filedetails/?id=1406871832).
 
@@ -118,4 +118,4 @@ Le mod The Great War a été possible grâce à la communauté, en particulier g
 ## Mods inclus dans le mod
 ----------
 [Flickering Flags Fix](http://steamcommunity.com/sharedfiles/filedetails/?id=850835220) made by Chairman Meow
-[Austro-Hungarians Voices](http://steamcommunity.com/sharedfiles/filedetails/?id=946923873) made by Geodomus
+[Austro-Hungarians Voices](http://steamcommunity.com/sharedfiles/filedetails/?id=946923873) made by Geodomus 
