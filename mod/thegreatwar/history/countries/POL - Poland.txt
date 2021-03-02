@@ -1,5 +1,5 @@
-﻿capital=10
-oob="POL_1910"
+﻿capital = 10
+oob = "POL_1910"
 
 set_fuel_ratio = 0.20
 
@@ -51,16 +51,16 @@ set_politics = {
     elections_allowed = no
 }
 set_popularities = {
-    democratic = 24
-    fascism = 3
+    democratic = 30
+    fascism = 2
     communism = 12
-    neutrality = 61
+    neutrality = 56
 }
 
 set_stability=0.75
 set_convoys=10
 1914.1.1 = { oob="POL_1914" }
-1914.1.1 = { set_technology={ 
+1914.1.1 = { set_technology = { 
 		#KiS #Scout1=1
 		#naval_bomber1=1
 
@@ -238,6 +238,7 @@ create_field_marshal = {
 
 	add_ideas = {
 		POL_interwar_spirit_WielkopolskaUprising
+		POL_interwar_spirit_RuinedIndustry
 	}
 	
 	set_technology = {

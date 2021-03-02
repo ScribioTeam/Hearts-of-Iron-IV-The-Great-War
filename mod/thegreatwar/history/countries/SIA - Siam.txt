@@ -1,6 +1,6 @@
-﻿capital=289
-oob="SIA_1910"
-set_technology={ 
+﻿capital = 289
+oob = "SIA_1910"
+set_technology = { 
 	light_field_gun1=1
 	 
 	heavy_field_gun1=1
@@ -48,10 +48,10 @@ set_stability=0.75
 set_convoys=15
 1914.1.1 = { oob="SIA_1914" }
 1910.10.23 = {
-	create_country_leader={ name = "Rama VI" desc=SIA_rama_vi_DESC picture="gfx/leaders/SIA_rama_vi.dds" expire="1935.1.1" ideology=despotism  traits={  } }
+	create_country_leader={ name = "Rama VI" desc=SIA_rama_vi_DESC picture="gfx/hoi4tgw_portraits/SIA/country_leaders/SIA_rama_vi.dds" expire="1935.1.1" ideology=despotism  traits={  } }
 	set_country_flag=rama_dead
 	}
-1914.1.1 = { set_technology={ 
+1914.1.1 = { set_technology = { 
 		#KiS #Scout1=1
 		#naval_bomber1=1
 
@@ -103,7 +103,7 @@ set_convoys=15
 		tech_logistics_company=1
 		#KiS #tech_signal_company=1
 		} }
-create_country_leader={ name = "Rama V" desc=SIA_rama_v_DESC picture="gfx/leaders/SIA_rama_v.dds" expire="1935.1.1" ideology=despotism  traits={  } }
+create_country_leader={ name = "Rama V" desc=SIA_rama_v_DESC picture="gfx/hoi4tgw_portraits/SIA/country_leaders/SIA_rama_v.dds" expire="1935.1.1" ideology=despotism  traits={  } }
 create_corps_commander={  name = "Prince Amoradhat" id=83002 portrait_path="gfx/generals/SIA_prince_amoradhat.dds" traits={   } skill=2 }
 create_corps_commander={  name = "Damrong Rajanubhab" id=83004 portrait_path="gfx/generals/SIA_damrong_rajanubhab.dds" traits={   } skill=2 }
 create_corps_commander={  name = "Nakhon Sawan Worapinit" id=83005 portrait_path="gfx/generals/SIA_nakhon_sawan_worapinit.dds" traits={   } skill=2 }
@@ -115,7 +115,7 @@ create_field_marshal={  name = "Chakrabongse Bhuvanart" id=83003 portrait_path="
 capital=289
 
 #oob="SIA_1936"
-#set_technology={ infantry_weapons=1 gw_artillery=1 early_fighter=1 CAS1=1 early_submarine=1 ww1_destroyer1=1     }
+#set_technology = { infantry_weapons=1 gw_artillery=1 early_fighter=1 CAS1=1 early_submarine=1 ww1_destroyer1=1     }
 #
 set_convoys=15
 create_country_leader={ name="Phraya Phahon" desc="POLITICS_PHRAYA_PHAHON_DESC" picture="Portrait_Siam_Phraya_Phahon.dds" expire="1965.1.1" ideology=despotism traits={  } }
