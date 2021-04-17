@@ -116,6 +116,7 @@ Le mod The Great War a été possible grâce à la communauté, en particulier g
    - asemiashkin
    - oksel99
    - Spl99
+   - MikaelLindmark
 
 ## Mods inclus dans le mod
 ----------
