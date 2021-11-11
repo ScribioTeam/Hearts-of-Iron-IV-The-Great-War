@@ -29,6 +29,7 @@
  uk_lawrence_focus_desc:0 "TODO"
  uk_arab_focus_desc:0 "TODO"
  uk_soviet_focus_desc:0 "TODO"
+ 
  GER_strat_bombing:0 "Campagne des Zeppelins"
  GER_diplomatic_effort:0 "Développement Diplomatique"
  GER_triple_alliance:0 "Triple-Alliance"
@@ -65,8 +66,8 @@
  GER_ww1_claimNetherlands_desc:0 "TODO"
  GER_ww1_DerKirchenstaat:0 "Der Kirchenstaat"
  GER_ww1_DerKirchenstaat_desc:0 "TODO"
- GER_ww1_BalticStates:0 "Vieille Prusse est la Prusse"
- GER_ww1_BalticStates_desc:0 "TODO"
+ GER_ww1_BalticStates:0 "L'ancienne Prusse est la Prusse"
+ GER_ww1_BalticStates_desc:0 "Nous pouvons faire revivre le glorieux héritage prussien que nous a légué Frédéric II, n'attendons pas !"
  GER_ww1_CrownedByThePope:0 "Couronnement Papal"
  GER_ww1_CrownedByThePope_desc:0 "TODO"
  GER_ww1_RestoreTeutonicOrder:0 "Restaurer l'Ordre Teutonique"
@@ -77,6 +78,7 @@
  GER_ww1_Hierusalem_desc:0 "TODO"
  GER_ww1_CrusaderKing:0 "Crusader King"
  GER_ww1_CrusaderKing_desc:0 "TODO"
+
  TUR_army_effort:0 "Développement de l'Armée"
  TUR_equipment_effort:0 "Développement de l'Équipement"
  TUR_doctrine_effort:0 "Développement Doctrinal"
