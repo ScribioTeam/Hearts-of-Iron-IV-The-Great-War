@@ -8,11 +8,11 @@ set_research_slots = 4
 set_stability = 0.6
 set_war_support = 0.75
 set_convoys = 100
-
+starting_train_buffer = 1.3
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------
-add_namespace = { name = "unit_leader_sov" type = unit_leader }
+# add_namespace = { name = "unit_leader_sov" type = unit_leader }
 
 #LEADERS
 create_country_leader={ name = "Vladimir Lenin" desc=RUS_vladimir_ilyich_lenin_DESC picture="gfx/hoi4tgw_portraits/RUS/country_leaders/RUS_vladimir_ilyich_lenin.dds" expire="1935.1.1" ideology=leninism traits={  } }

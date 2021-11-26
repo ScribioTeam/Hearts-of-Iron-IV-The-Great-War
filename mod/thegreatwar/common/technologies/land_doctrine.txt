@@ -1,5 +1,8 @@
 technologies = {
 
+	##################
+	# HOI4TGW
+
 	ww1_landdoctrine = {
 		
 		path = {
@@ -14,7 +17,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 
 		folder = {
@@ -53,7 +56,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -90,7 +93,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -126,7 +129,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -160,7 +163,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -195,7 +198,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -229,7 +232,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -273,7 +276,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -308,7 +311,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -339,7 +342,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -375,7 +378,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -409,7 +412,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -450,7 +453,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 2
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -503,7 +506,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 
 		folder = {
@@ -543,7 +546,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 
 		categories = {
@@ -593,7 +596,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 
 		categories = {
@@ -639,7 +642,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 
 		categories = {
@@ -679,7 +682,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -729,7 +732,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -777,7 +780,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -823,7 +826,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 
 		categories = {
@@ -876,7 +879,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 
 		categories = {
@@ -924,7 +927,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -970,7 +973,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -1007,7 +1010,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -1044,7 +1047,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -1085,7 +1088,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -1121,7 +1124,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -1155,7 +1158,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -1206,7 +1209,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -1245,7 +1248,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 
 		categories = {
@@ -1289,7 +1292,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -1333,7 +1336,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -1373,7 +1376,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -1415,7 +1418,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -1455,7 +1458,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -1501,7 +1504,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -1543,7 +1546,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -1585,7 +1588,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -1623,7 +1626,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -1658,7 +1661,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -1700,7 +1703,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -1740,7 +1743,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -1788,7 +1791,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -1823,7 +1826,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -1873,7 +1876,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -1911,7 +1914,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -1952,7 +1955,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -1997,7 +2000,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -2046,7 +2049,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -2085,7 +2088,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -2127,7 +2130,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -2168,7 +2171,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -2207,7 +2210,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -2244,7 +2247,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -2288,7 +2291,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -2333,7 +2336,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -2370,7 +2373,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -2410,7 +2413,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -2450,7 +2453,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -2485,7 +2488,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -2537,7 +2540,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -2575,7 +2578,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -2619,7 +2622,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -2662,7 +2665,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -2701,7 +2704,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -2738,7 +2741,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -2783,7 +2786,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -2827,7 +2830,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -2876,7 +2879,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -2909,7 +2912,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -2956,7 +2959,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -2998,7 +3001,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -3039,7 +3042,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -3084,7 +3087,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
@@ -3122,7 +3125,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3
 		xp_research_type = army
-		xp_research_cost = 100
+		xp_unlock_cost = 100
 		xp_research_bonus = 1.00
 		
 		categories = {
