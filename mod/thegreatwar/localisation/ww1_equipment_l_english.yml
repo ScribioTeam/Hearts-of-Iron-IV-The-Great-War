@@ -35,6 +35,33 @@
  infantry_equipment_2_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs."
  infantry_equipment_3_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs."
  
+ FRA_infantry_equipment_1921:0 "Thompson Submachine Gun"
+ FRA_infantry_equipment_1921_short:0 "Tommy Gun"
+
+ ENG_infantry_equipment_1921:0 "Thompson Submachine Gun"
+ ENG_infantry_equipment_1921_short:0 "Tommy Gun"
+
+ USA_infantry_equipment_1921:0 "Thompson Submachine Gun"
+ USA_infantry_equipment_1921_short:0 "Tommy Gun"
+
+ AUH_infantry_equipment_1921:0 "Thompson Submachine Gun"
+ AUH_infantry_equipment_1921_short:0 "Tommy Gun"
+
+ JAP_infantry_equipment_1921:0 "Thompson Submachine Gun"
+ JAP_infantry_equipment_1921_short:0 "Tommy Gun"
+
+ ITA_infantry_equipment_1921:0 "Thompson Submachine Gun"
+ ITA_infantry_equipment_1921_short:0 "Tommy Gun"
+
+ TUR_infantry_equipment_1921:0 "Thompson Submachine Gun"
+ TUR_infantry_equipment_1921_short:0 "Tommy Gun"
+
+ TUK_infantry_equipment_1921:0 "Thompson Submachine Gun"
+ TUK_infantry_equipment_1921_short:0 "Tommy Gun"
+
+ BRA_infantry_equipment_1921:0 "Thompson Submachine Gun"
+ BRA_infantry_equipment_1921_short:0 "Tommy Gun"
+
  infantry_equipment_1921:0 "Infantry Equipment IV"
  infantry_equipment_1921_short:0 "Weapons IV"
  infantry_equipment_1921_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs."
@@ -82,3 +109,6 @@
  infantry_ww1_machinegun4:0 "Modern Light Machine Gun"
  infantry_ww1_machinegun4_short:0 "Modern Light Machine Gun"
  infantry_ww1_machinegun4_desc:0 "A light machine gun (LMG) is a machine gun designed to be employed by an individual soldier, with or without an assistant."
+
+ train_equipment_ww1_old:0 "Old Train"
+ train_equipment_ww1_armored:0 "Early Armored Train"
