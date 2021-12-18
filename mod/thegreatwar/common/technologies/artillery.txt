@@ -7,6 +7,11 @@ technologies = {
 		}
 
 		start_year = 1900
+
+		enable_equipment_modules = {
+			tank_small_cannon
+			secondary_turret_small_cannon
+		}
 		
 		path = {
 			leads_to_tech = bonus_artillery1 
@@ -35,7 +40,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 200
+			factor = 150
 		}
 	}
 
@@ -43,6 +48,10 @@ technologies = {
 
 		enable_equipments = {
 			heavy_field_gun_equipment_1
+		}
+
+		enable_equipment_modules = {
+			tank_heavy_cannon
 		}
 
 		start_year = 1900
@@ -159,7 +168,6 @@ technologies = {
 		ai_will_do = {
 			factor = 0
 		}
-
 	}
 
 
@@ -896,6 +904,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		enable_equipment_modules = {
+			ship_anti_air_1
+		}
+
 		research_cost = 1.5
 
 		start_year = 1915

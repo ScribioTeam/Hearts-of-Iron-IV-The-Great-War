@@ -18,7 +18,6 @@ division_template = {
 }
 ###################################################################
 
-
 units = {
 	
 	division = {
@@ -31,6 +30,7 @@ units = {
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.27
 	}
+
 	division = {
 		division_name = { 
 			is_name_ordered = yes 
@@ -41,6 +41,7 @@ units = {
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.88
 	}
+
 	division = {
 		division_name = { 
 			is_name_ordered = yes 
@@ -51,6 +52,7 @@ units = {
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.64
 	}
+
 	division = {
 		division_name = { 
 			is_name_ordered = yes 

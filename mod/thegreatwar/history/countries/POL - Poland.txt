@@ -4,8 +4,6 @@ oob = "POL_1910"
 set_fuel_ratio = 0.20
 set_research_slots = 4
 
-
-
 #-------------------------------------------------------
 #					ADVISORS
 #-------------------------------------------------------
@@ -49,26 +47,22 @@ recruit_character = POL_orlicz_dreszer
 
 ############################################################################################################
 
-
-
 set_technology = {
 
 	# Train
 	ww1_train = 1
 
-	light_field_gun1=1
-	 
-	heavy_field_gun1=1
-	#KiS #heavy_howitzer1=1
-	motorised_infantry = 1 #KiS #siege_artillery1=1
-	electronic_mechanical_engineering=1
-	infantry_weapons=1
+	light_field_gun1 = 1
+	heavy_field_gun1 = 1
+
+	motorised_infantry = 1
+	electronic_mechanical_engineering = 1
+	infantry_weapons = 1
 	ww1_destroyer0 = 1
 	ww1_destroyer0_mtg = 1
 	ww1_destroyer1 = 1
 	ww1_destroyer1_mtg = 1
-	 
-	#KiS early_protected_cruiser=1
+
 	ww1_light_cruiser1 = 1
 	ww1_light_cruiser1_mtg = 1
 	ww1_light_cruiser0 = 1
@@ -83,16 +77,10 @@ set_technology = {
 	transport_mtg = 1
 	ww1_submarine1 = 1
 	ww1_submarine1_mtg = 1 ww1_coastal_submarine1=1
-	ww1_submarine2=1 ww1_coastal_submarine2=1
-	tech_support=1
-	tech_engineers=1
-	tech_recon=1
-	#tech_military_police=1
-	#tech_maintenance_company=1
-	#tech_field_hospital=1
-	#tech_logistics_company=1
-	#KiS #tech_signal_company=1
-	}
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+}
 
 set_politics = {
     ruling_party = neutrality
@@ -100,6 +88,7 @@ set_politics = {
     election_frequency = 36
     elections_allowed = no
 }
+
 set_popularities = {
     democratic = 30
     fascism = 2
@@ -107,25 +96,23 @@ set_popularities = {
     neutrality = 56
 }
 
-set_stability=0.75
-set_convoys=10
-1914.1.1 = { oob="POL_1914" }
-1914.1.1 = { set_technology = { 
-		#KiS #Scout1=1
-		#naval_bomber1=1
+set_stability = 0.75
+set_convoys = 10
 
-		#KiS #airship1=1
-		light_field_gun1=1
-		light_field_gun2=1
+1914.1.1 = {
+
+	oob="POL_1914"
+
+	set_technology = { 
+
+		light_field_gun1 = 1
+		light_field_gun2=1		 
 		 
-		 
-		heavy_field_gun1=1
+		heavy_field_gun1 = 1
 		heavy_field_gun2=1
-		#KiS #heavy_howitzer1=1
-		#KiS #heavy_howitzer2=1
 		motorised_infantry = 1 #KiS #siege_artillery1=1
 		#KiS #siege_artillery2=1
-		electronic_mechanical_engineering=1
+		electronic_mechanical_engineering = 1
 		#KiS #radio=1
 		mechanical_computing=1
 		computing_machine=1
@@ -137,14 +124,14 @@ set_convoys=10
 		concentrated_industry2=1
 		synth_oil_experiments=1
 		oil_plant=1
-		construction1=1
+		construction1 = 1
 		excavation1=1
 		construction2=1
 		excavation2=1
-		infantry_weapons=1
+		infantry_weapons = 1
 		ww1infantry_weapons1=1
 		marines=1
-		tech_mountaineers=1
+		tech_mountaineers = 1
 		ww1_destroyer0 = 1
 	ww1_destroyer0_mtg = 1
 		#KiS #basic_machinegun=1
@@ -180,20 +167,20 @@ set_convoys=10
 	ww1_submarine1_mtg = 1 ww1_coastal_submarine1=1
 		ww1_submarine2=1 ww1_coastal_submarine2=1
 		#KiS #improved_coastal_submarine=1
-		tech_support=1
-		tech_engineers=1
-		tech_recon=1
+		tech_support = 1
+		tech_engineers = 1
+		tech_recon = 1
 		tech_military_police=1
 		tech_maintenance_company=1
-		tech_field_hospital=1
-		tech_logistics_company=1
+		tech_field_hospital = 1
+		tech_logistics_company = 1
 		#KiS #tech_signal_company=1
 		} }
-create_country_leader={ name = "Józef Piłsudski" desc=POL_jozef_pilsudski_DESC picture="gfx/hoi4tgw_portraits/POL/country_leaders/POL_jozef_pilsudski.dds" expire="1935.1.1" ideology=despotism  traits={  } }
-create_country_leader={ name = "Józef Piłsudski" desc=POL_jozef_pilsudski_DESC picture="gfx/hoi4tgw_portraits/POL/country_leaders/POL_jozef_pilsudski.dds" expire="1935.1.1" ideology=autocracy  traits={  } }
-create_country_leader={ name = "Józef Piłsudski" desc=POL_jozef_pilsudski_DESC picture="gfx/hoi4tgw_portraits/POL/country_leaders/POL_jozef_pilsudski.dds" expire="1935.1.1" ideology=conservatism  traits={  } }
-create_country_leader={ name = "Józef Piłsudski" desc=POL_jozef_pilsudski_DESC picture="gfx/hoi4tgw_portraits/POL/country_leaders/POL_jozef_pilsudski.dds" expire="1935.1.1" ideology=fascism_ideology  traits={  } }
-create_country_leader={ name = "Józef Piłsudski" desc=POL_jozef_pilsudski_DESC picture="gfx/hoi4tgw_portraits/POL/country_leaders/POL_jozef_pilsudski.dds" expire="1935.1.1" ideology=marxism  traits={  } }
+create_country_leader={ name = "Józef Piłsudski" desc=POL_jozef_pilsudski_DESC picture="gfx/hoi4tgw_portraits/POL/country_leaders/POL_jozef_pilsudski.dds" expire="1935.1.1" ideology=despotism  traits = { } }
+create_country_leader={ name = "Józef Piłsudski" desc=POL_jozef_pilsudski_DESC picture="gfx/hoi4tgw_portraits/POL/country_leaders/POL_jozef_pilsudski.dds" expire="1935.1.1" ideology=autocracy  traits = { } }
+create_country_leader={ name = "Józef Piłsudski" desc=POL_jozef_pilsudski_DESC picture="gfx/hoi4tgw_portraits/POL/country_leaders/POL_jozef_pilsudski.dds" expire="1935.1.1" ideology=conservatism  traits = { } }
+create_country_leader={ name = "Józef Piłsudski" desc=POL_jozef_pilsudski_DESC picture="gfx/hoi4tgw_portraits/POL/country_leaders/POL_jozef_pilsudski.dds" expire="1935.1.1" ideology=fascism_ideology  traits = { } }
+create_country_leader={ name = "Józef Piłsudski" desc=POL_jozef_pilsudski_DESC picture="gfx/hoi4tgw_portraits/POL/country_leaders/POL_jozef_pilsudski.dds" expire="1935.1.1" ideology=marxism  traits = { } }
 
 #create_corps_commander={  name = "Osinski" id=69003 portrait_path="gfx/generals/POL_osinski.dds" traits={  old_guard } skill=1 }
 #create_corps_commander={  name = "Romer" id=69004 portrait_path="gfx/generals/POL_romer.dds" traits={   } skill=1 }
@@ -335,12 +322,16 @@ create_field_marshal = {
 		tech_signal_company2 = 1
 
 		# Armor
-		gwtank = 1
+		gwtank = 1 # 1910 Armored Car
+			gwtank__nostepback = 1
 		ww1_armored_car_2 = 1
+			ww1_armored_car_2__nostepback = 1
 		ww1_armored_car_3 = 1
+			ww1_armored_car_3__nostepback = 1
 		ww1_light_tank = 1
+			ww1_light_tank__nostepback = 1
 		ww1_heavy_tank = 1
-
+			ww1_heavy_tank__nostepback = 1
 
 		# Artillery
 		light_field_gun2 = 1
@@ -401,6 +392,7 @@ create_field_marshal = {
 		tanktrack1 = 1
 		tank_unlocker1 = 1
 		tank_unlocker2 = 1
+			tank_unlocker2__nostepback = 1
 		tankaircraft1 = 1
 		supertech1 = 1
 

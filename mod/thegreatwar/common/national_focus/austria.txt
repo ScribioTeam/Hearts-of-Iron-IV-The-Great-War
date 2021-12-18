@@ -43,7 +43,7 @@ focus_tree = {
 		id = AUH_ww1_militarism
 		prerequisite = { focus=AUH_ww1_support_kaiser }
 		icon = GFX_hoi4tgw_auh_militarism
-		completion_reward = { add_ideas=militarism_focus army_experience=20 set_rule={ can_send_volunteers=yes } }
+		completion_reward = { add_ideas = militarism_focus army_experience=20 set_rule={ can_send_volunteers=yes } }
 		ai_will_do = { factor = 80 }
 		cost = 10
 		x = 3
@@ -105,7 +105,7 @@ focus_tree = {
 		id = AUH_ww1_military_youth
 		prerequisite = { focus=AUH_ww1_militarism }
 		icon = GFX_goal_generic_more_territorial_claims
-		completion_reward = { add_ideas=military_youth_focus if={ limit={ has_government=fascism } add_popularity={ ideology=fascism popularity=0.2 } } if={ limit={ has_government=communism } add_popularity={ ideology=communism popularity=0.2 } } }
+		completion_reward = { add_ideas = military_youth_focus if={ limit={ has_government=fascism } add_popularity={ ideology=fascism popularity=0.2 } } if={ limit={ has_government=communism } add_popularity={ ideology=communism popularity=0.2 } } }
 		ai_will_do = { factor = 80 }
 		cost = 10
 		x = 1
@@ -627,6 +627,7 @@ focus_tree = {
 		y = 2
 		mutually_exclusive = { focus=AUH_ww1_back_italy }
 	}
+
 	focus = {
 		id = AUH_ww1_military_advisors
 		prerequisite = { focus=AUH_ww1_back_ger }
@@ -646,18 +647,31 @@ focus_tree = {
 
 	focus = {
 		id = AUH_ww1_back_italy
-		prerequisite = { focus=AUH_ww1_triple_alliance }
+		mutually_exclusive = { focus = AUH_ww1_back_ger }
+		prerequisite = { focus = AUH_ww1_triple_alliance }
 		icon = GFX_hoi4tgw_italy
-		available = { NOT={ has_war_with = ITA } }
-		completion_reward = { 
-			ITA={ add_opinion_modifier={ target=AUH modifier=ger_auh_alliance_focus } } GER={ add_opinion_modifier={ target=AUH modifier=HOI4TGW_Opinion_ger_ita_alliance_focus_malus } }
+
+		available = {
+			NOT = { has_war_with = ITA }
 		}
-		ai_will_do = { factor = 0	}
+
+		completion_reward = {
+
+			ITA = {
+				add_opinion_modifier = { target=AUH modifier=ger_auh_alliance_focus }
+			}
+
+			GER = {
+				add_opinion_modifier = { target=AUH modifier=HOI4TGW_Opinion_ger_ita_alliance_focus_malus }
+			}
+		}
+
+		ai_will_do = { factor = 0 }
 		cost = 10
 		x = 9
 		y = 2
-		mutually_exclusive = { focus=AUH_ww1_back_ger }
 	}
+
 	focus = {
 		id = AUH_ww1_give_italy_territories
 		prerequisite = { focus=AUH_ww1_back_italy }
