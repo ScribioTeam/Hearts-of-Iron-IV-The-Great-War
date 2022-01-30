@@ -15,19 +15,8 @@ state = {
 		owner=FRA
 		add_core_of=FRA
 
-		1936.1.1={ 
-			owner=FRA
-			add_core_of=FRA
-			victory_points={ 9642 5 }
-			victory_points={ 11516 5 }
-			buildings={
-				infrastructure=7
-				industrial_complex=1
-				air_base=5
-			}
-		}
 		buildings={
-			infrastructure=7
+			infrastructure=4
 			industrial_complex=2
 			11516={ bunker=1 trench=1 }
 			521={ bunker=1 trench=1  }
