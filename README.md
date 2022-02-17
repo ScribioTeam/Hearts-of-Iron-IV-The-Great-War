@@ -9,6 +9,7 @@
 
 Ce dépôt a pour but d'améliorer la traduction française de ce mod.
 
+
 ### Organisation
 
 La branche *develop* contient le mod ainsi que des améliorations de la traduction française compatibles avec la version anglais.
@@ -121,6 +122,7 @@ Le mod The Great War a été possible grâce à la communauté, en particulier g
    - sano2
    - Landorin
    - Ecrfour
+   - renoth
 
 ## Mods inclus dans le mod
 

@@ -7,7 +7,7 @@ tags={
 	"Translation"
 }
 picture="tgw_picture.png"
-version="0.17.3"
+version="0.17.4"
 remote_file_id="1406871832"
 supported_version="1.11.*"
 
