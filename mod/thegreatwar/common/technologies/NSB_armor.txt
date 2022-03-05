@@ -136,12 +136,7 @@ technologies = {
 			light_armor
 		}
 
-			enable_equipments = {
-			light_tank_chassis_0
-			light_tank_destroyer_chassis_0
-			light_tank_artillery_chassis_0
-			light_tank_aa_chassis_0
-		}
+		enable_equipments = { light_tank_chassis_1917 }
 
 		enable_equipment_modules = {
 			tank_light_one_man_tank_turret
@@ -196,11 +191,8 @@ technologies = {
 			heavy_armor
 		}
 
-		enable_equipments = {		
-			heavy_tank_chassis_0
-			heavy_tank_destroyer_chassis_0
-			heavy_tank_artillery_chassis_0
-			heavy_tank_aa_chassis_0
+		enable_equipments = {
+			heavy_tank_chassis_1916
 		}
 
 		enable_equipment_modules = {
@@ -247,7 +239,8 @@ technologies = {
 
 	ww1_heavy_tank2__nostepback =
 	{
-		enable_equipments = { ww1_heavy_tank_equipment_2 }
+		#enable_equipments = { ww1_heavy_tank_equipment_2 }
+		enable_equipments = { heavy_tank_chassis_1917 }
 
 		path =
 		{
@@ -281,7 +274,8 @@ technologies = {
 	ww1_super_heavy_tank__nostepback = { # K-Wagen
 
 		enable_equipments = {
-			ww1_super_heavy_tank_equipment
+			#ww1_super_heavy_tank_equipment
+			super_heavy_tank_chassis_1917
 		}
 
 		enable_equipment_modules = {
@@ -310,7 +304,7 @@ technologies = {
 
 	ww1_light_tank_interwar_1__nostepback =
 	{
-		enable_equipments = { ww1_light_tank_equipment_2 }
+		enable_equipments = { light_tank_chassis_1922 }
 
 		path = {
 			leads_to_tech = ww1_light_tank_interwar_2__nostepback
@@ -334,7 +328,7 @@ technologies = {
 
 	ww1_light_tank_interwar_2__nostepback =
 	{
-		enable_equipments = { ww1_light_tank_equipment_3 }
+		enable_equipments = { light_tank_chassis_1928 }
 
 		path = {
 			leads_to_tech = basic_light_tank_chassis
@@ -369,7 +363,8 @@ technologies = {
 
 	ww1_heavy_tank_interwar__nostepback =
 	{
-		enable_equipments = { ww1_heavy_tank_equipment_3 }
+		#enable_equipments = { ww1_heavy_tank_equipment_3 }
+		enable_equipments = { heavy_tank_chassis_1928 }
 
 		path = {
 			leads_to_tech = basic_heavy_tank_chassis
