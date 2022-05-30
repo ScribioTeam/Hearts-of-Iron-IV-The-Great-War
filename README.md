@@ -123,6 +123,8 @@ Le mod The Great War a été possible grâce à la communauté, en particulier g
    - Landorin
    - Ecrfour
    - renoth
+   - mi105
+
 
 ## Mods inclus dans le mod
 
