@@ -124,6 +124,9 @@ Le mod The Great War a été possible grâce à la communauté, en particulier g
    - Ecrfour
    - renoth
    - mi105
+   - DubHacker
+   - PrometheusNavagadro
+   - NamekSurvivor
 
 
 ## Mods inclus dans le mod
