@@ -2,8 +2,8 @@
 
 news_event = {
 	id=ww1_romania.1
-	title=ww1_romania.1.t#Carol I Dies!
-	desc=ww1_romania.1.d#Carol I has died. Ferdinand is now King
+	title = ww1_romania.1.t#Carol I Dies!
+	desc = ww1_romania.1.d#Carol I has died. Ferdinand is now King
 	picture=ww1_romania_1
 
 	major = yes
@@ -29,7 +29,7 @@ news_event = {
 				kill_country_leader=yes
 				create_country_leader={
 					name="Ferdinand I"
-					desc=ROM_ferdinand_i_DESC
+					desc = ROM_ferdinand_i_DESC
 					picture="gfx/hoi4tgw_portraits/ROM/country_leaders/ROM_ferdinand_i.dds"
 					expire="1935.1.1"
 					ideology=conservatism
@@ -89,7 +89,7 @@ country_event = {
 #____________________________________________________________
 country_event = {
 	id=ww1_romania.6
-	title=ww1_romania.6.t#Honour the Triple Alliance?
+	title = ww1_romania.6.t#Honour the Triple Alliance?
 	desc = ww1_romania.6.d
 	picture=ww1_romania_6
 	is_triggered_only=yes
@@ -172,39 +172,39 @@ country_event = {
 		}
 	}
 
-	option={
-		name=ww1_romania.6.b
-		ai_chance={
-			factor=0
+	option = {
+		name = ww1_romania.6.b
+		ai_chance = {
+			factor = 0
 		}
 		ROM = {
 			add_ideas=neutrality_idea
-			add_opinion_modifier={
-				target=RUS
-				modifier=medium_increase
+			add_opinion_modifier = {
+				target = RUS
+				modifier = medium_increase
 			}
-			add_opinion_modifier={
-				target=ENG
-				modifier=large_increase
+			add_opinion_modifier = {
+				target = ENG
+				modifier = large_increase
 			}
-			add_opinion_modifier={
-				target=FRA
-				modifier=large_increase
+			add_opinion_modifier = {
+				target = FRA
+				modifier = large_increase
 			}
-			add_opinion_modifier={
-				target=GER
-				modifier=large_decrease
+			add_opinion_modifier = {
+				target = GER
+				modifier = large_decrease
 			}
-			add_opinion_modifier={
-				target=AUH
-				modifier=large_decrease
+			add_opinion_modifier = {
+				target = AUH
+				modifier = large_decrease
 			}
-			if={
-				limit={
-					is_in_faction_with=GER
+			if = {
+				limit = {
+					is_in_faction_with = GER
 				}
-				GER={
-					remove_from_faction=ROM
+				GER = {
+					remove_from_faction = ROM
 				}
 			}
 		}

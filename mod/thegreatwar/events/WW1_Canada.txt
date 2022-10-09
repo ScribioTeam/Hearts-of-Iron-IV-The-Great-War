@@ -195,7 +195,7 @@ country_event = {
 		ENG = {
 			add_opinion_modifier = {
 				target = CAN
-				modifier = huge_increase
+				modifier = large_increase
 			}
 		}
 		hidden_effect = {
@@ -238,7 +238,7 @@ country_event = {
 		CAN = {
 			add_opinion_modifier = {
 				target = ENG
-				modifier = huge_increase
+				modifier = large_increase
 			}
 		}
 	}
@@ -260,13 +260,13 @@ country_event = {
 		CAN = {
 			add_opinion_modifier = {
 				target = USA
-				modifier = huge_increase
+				modifier = large_increase
 			}
 		}
 		USA = {
 			add_opinion_modifier = {
 				target = CAN
-				modifier = huge_increase
+				modifier = large_increase
 			}
 		}
 		add_ideas = CAN_republic_americanism
@@ -2284,32 +2284,6 @@ country_event = {
 					type = air_base
 					level = 1
 					instant_build = yes
-				}
-			}
-			UOB = {
-				every_unit_leader = {
-					limit = {
-						has_trait = trait_royalist
-					}
-					set_nationality = CAN
-				}
-				transfer_units_fraction = {
-					target = CAN
-					size = 0
-					navy_ratio = 0.5
-				}
-			}
-			BRE = {
-				every_unit_leader = {
-				    set_nationality = CAN
-				}
-				transfer_units_fraction = {
-					target = CAN
-					size = 1
-					stockpile_ratio = 0.75
-					army_ratio = 0.7
-					navy_ratio = 0.9
-					air_ratio = 0.9
 				}
 			}
 		}

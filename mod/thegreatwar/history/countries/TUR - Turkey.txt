@@ -28,7 +28,7 @@ recruit_character = TUR_mehmed_vi
 recruit_character = TUR_mustafa_kemal
 recruit_character = TUR_damat_ferid_pasha
 
-#create_country_leader={ name = "Mustafa Suphi" desc=TUR_mustafa_suphi_DESC picture="gfx/hoi4tgw_portraits/TUR/country_leaders/TUR_mustafa_suphi.dds" expire="1935.1.1" ideology=leninism traits = { } }
+#create_country_leader={ name = "Mustafa Suphi" desc = TUR_mustafa_suphi_DESC picture="gfx/hoi4tgw_portraits/TUR/country_leaders/TUR_mustafa_suphi.dds" expire="1935.1.1" ideology=leninism traits = { } }
 
 
 #ARMY
@@ -165,6 +165,8 @@ set_technology = {
 		# Air
 		ww1_fighter1 = 1
 		ww1_zeppelin1 = 1
+			bba_ww1_fighter1 = 1
+			bba_ww1_zeppelin1 = 1
 
 		# Engineering
 		electronic_mechanical_engineering = 1
@@ -293,6 +295,9 @@ set_technology = {
 		ww1_fighter1 = 1
 		ww1_fighter1b = 1
 		ww1_zeppelin1 = 1
+			bba_ww1_fighter1 = 1
+			bba_ww1_fighter1b = 1
+			bba_ww1_zeppelin1 = 1
 
 		# Air Doctrine
 		ww1_airdoctrine = 1
@@ -455,9 +460,12 @@ set_technology = {
         ww1_fighter1b = 1
         ww1_fighter2 = 1
         ww1_fighter2b = 1
-        ww1_seaplane1 = 1
         ww1_bomber1 = 1
-        ww1_bomber2 = 1
+	        bba_ww1_fighter1 = 1
+	        bba_ww1_fighter1b = 1
+	        bba_ww1_fighter2 = 1
+	        bba_ww1_fighter2b = 1
+	        bba_ww1_bomber1 = 1
 
         # Air Doctrine
         ww1_airdoctrine = 1

@@ -43,16 +43,8 @@ recruit_character = SER_milenko_vesnic
 recruit_character = SER_kosta_miletic # Air Chief
 
 
-
-
 1910.1.1 = {
 	oob = "SER_1910"
-
-	#-------------------------------------------------------
-	#							NF
-	#-------------------------------------------------------
-
-	#-------------------------------------------------------
 
 	set_technology = {
 
@@ -112,6 +104,8 @@ recruit_character = SER_kosta_miletic # Air Chief
 		# Air
 		ww1_fighter1 = 1
 		ww1_zeppelin1 = 1
+			bba_ww1_fighter1 = 1
+			bba_ww1_zeppelin1 = 1
 
 		# Engineering
 		electronic_mechanical_engineering = 1
@@ -143,6 +137,7 @@ recruit_character = SER_kosta_miletic # Air Chief
 
 	add_manpower = 25874
 }
+
 1914.1.1 = {
 	oob = "SER_1914"
 
@@ -260,6 +255,9 @@ recruit_character = SER_kosta_miletic # Air Chief
 		ww1_fighter1 = 1
 		ww1_fighter1b = 1
 		ww1_zeppelin1 = 1
+			bba_ww1_fighter1 = 1
+			bba_ww1_fighter1b = 1
+			bba_ww1_zeppelin1 = 1
 
 		# Air Doctrine
 		ww1_airdoctrine = 1

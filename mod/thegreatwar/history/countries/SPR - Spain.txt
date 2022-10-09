@@ -22,7 +22,6 @@ set_convoys = 150
 		motorised_infantry = 1
 		ww1_ambulance1 = 1
 
-
 		# Support
 		tech_support = 1
 		tech_engineers = 1
@@ -31,8 +30,6 @@ set_convoys = 150
 		#tech_maintenance_company = 1
 		#tech_field_hospital = 1
 		#tech_logistics_company = 1
-
-		# Armor
 
 		# Artillery
 		light_field_gun1 = 1
@@ -89,10 +86,10 @@ set_convoys = 150
 	}
 
 	set_popularities = {
-		democratic = 20
-		fascism = 10
-		communism = 5
-		neutrality = 65
+		democratic = 9
+		fascism = 4
+		communism = 2
+		neutrality = 85
 	}
 
 	set_politics = {
@@ -127,7 +124,6 @@ set_convoys = 150
 	set_technology = {
 
 		# Infantry
-		infantry_weapons = 1
 		ww1infantry_weapons1 = 1
 		support_weapons = 1
 		infantry_binoculars = 1
@@ -154,10 +150,6 @@ set_convoys = 150
 		bonus_bertha1 = 1
 
 		# Navy
-		ww1_destroyer0 = 1
-		ww1_destroyer0_mtg = 1
-		ww1_destroyer1 = 1
-		ww1_destroyer1_mtg = 1
 		ww1_light_cruiser1 = 1
 		ww1_light_cruiser1_mtg = 1
 		ww1_light_cruiser0 = 1
@@ -185,6 +177,7 @@ set_convoys = 150
 
 		# Air
 		ww1_fighter1 = 1
+			bba_ww1_fighter1 = 1
 
 		# Engineering
 		electronic_mechanical_engineering = 1
@@ -198,10 +191,10 @@ set_convoys = 150
 	}
 
 	set_popularities = {
-		democratic = 20
-		fascism = 10
-		communism = 5
-		neutrality = 65
+		democratic = 10
+		fascism = 4
+		communism = 3
+		neutrality = 83
 	}
 	
 	add_ideas = {

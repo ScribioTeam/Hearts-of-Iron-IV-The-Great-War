@@ -282,6 +282,8 @@ recruit_character = ENG_percy_zachariah_cox
 		# Air
 		ww1_fighter1 = 1
 		ww1_zeppelin1 = 1
+			bba_ww1_fighter1 = 1
+			bba_ww1_zeppelin1 = 1
 
 		# Engineering
 		electronic_mechanical_engineering = 1
@@ -373,13 +375,10 @@ recruit_character = ENG_percy_zachariah_cox
 	create_equipment_variant={ name="B Class" type=coastal_submarine_1900 name_group = ENG_SS_HISTORICAL parent_version = 1 obsolete=yes upgrades={    ship_reliability_upgrade=5       sub_torpedo_upgrade=5 sub_stealth_upgrade=5 sub_engine_upgrade=5  } }
 
 
-
-
-
 }
 
 1910.6.1 = {
-	create_country_leader={ name = "George V" desc=ENG_george_v_DESC picture="gfx/hoi4tgw_portraits/ENG/country_leaders/ENG_george_v.dds" expire="1935.1.1" ideology=conservatism traits = {  } }
+	create_country_leader={ name = "George V" desc = ENG_george_v_DESC picture="gfx/hoi4tgw_portraits/ENG/country_leaders/ENG_george_v.dds" expire="1935.1.1" ideology=conservatism traits = {  } }
 	set_country_flag = king_death_george
 	set_country_flag = saf_release
 }
@@ -522,6 +521,10 @@ recruit_character = ENG_percy_zachariah_cox
 		ww1_fighter1b = 1
 		ww1_zeppelin1 = 1
 		ww1_seaplane1 = 1
+			bba_ww1_fighter1 = 1
+			bba_ww1_fighter1b = 1
+			bba_ww1_zeppelin1 = 1
+			bba_ww1_seaplane1 = 1
 
 		# Air Doctrine
 		ww1_airdoctrine = 1
@@ -760,6 +763,15 @@ recruit_character = ENG_percy_zachariah_cox
 		ww1_bomber2 = 1
 		ww1_bomber3 = 1
 		ww1_zeppelin2 = 1
+			bba_ww1_fighter2 = 1
+			bba_ww1_fighter2b = 1
+			bba_ww1_fighter3 = 1
+			bba_ww1_seaplane1 = 1
+			bba_ww1_seaplane2 = 1
+			bba_ww1_bomber1 = 1
+			bba_ww1_bomber2 = 1
+			bba_ww1_bomber3 = 1
+			bba_ww1_zeppelin2 = 1
 
 		# Air Doctrine
 		ww1_airdoctrine = 1

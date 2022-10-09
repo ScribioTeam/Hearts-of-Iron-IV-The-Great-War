@@ -10,10 +10,6 @@ set_war_support = 0.60
 set_convoys = 100
 starting_train_buffer = 4
 
-
-
-
-
 #-------------------------------------------------------
 #					ADVISORS
 #-------------------------------------------------------
@@ -264,6 +260,8 @@ if = {
 		# Air
 		ww1_fighter1 = 1
 		ww1_zeppelin1 = 1
+			bba_ww1_fighter1 = 1
+			bba_ww1_zeppelin1 = 1
 
 		# Engineering
 		electronic_mechanical_engineering = 1
@@ -330,8 +328,9 @@ if = {
 	create_equipment_variant={ name="B Class" type=coastal_submarine_1900 parent_version = 1 obsolete=yes upgrades={    ship_reliability_upgrade=4       sub_torpedo_upgrade=5 sub_stealth_upgrade=4 sub_engine_upgrade=4  } }
 
 }
+
 1913.3.14 = { 
-	create_country_leader = { name = "Woodrow Wilson" desc=USA_woodrow_wilson_DESC picture="gfx/hoi4tgw_portraits/USA/country_leaders/USA_woodrow_wilson.dds" expire="1935.1.1" ideology=liberalism traits = { } } 
+	create_country_leader = { name = "Woodrow Wilson" desc = USA_woodrow_wilson_DESC picture="gfx/hoi4tgw_portraits/USA/country_leaders/USA_woodrow_wilson.dds" expire="1935.1.1" ideology=liberalism traits = { } } 
 	set_country_flag = newfreedom
 	set_country_flag = panamerican
 }
@@ -467,6 +466,9 @@ if = {
 		ww1_fighter1 = 1
 		ww1_fighter1b = 1
 		ww1_zeppelin1 = 1
+			bba_ww1_fighter1 = 1
+			bba_ww1_fighter1b = 1
+			bba_ww1_zeppelin1 = 1
 
 		# Air Doctrine
 		ww1_airdoctrine = 1
@@ -696,6 +698,16 @@ create_equipment_variant={ name="M Class" type=submarine_1914 parent_version = 6
 		ww1_bomber2 = 1
 		ww1_bomber3 = 1
 		ww1_zeppelin2 = 1
+			bba_ww1_fighter2 = 1
+			bba_ww1_fighter2b = 1
+			bba_ww1_fighter3 = 1
+			bba_ww1_fighter4 = 1
+			bba_ww1_seaplane1 = 1
+			bba_ww1_seaplane2 = 1
+			bba_ww1_bomber1 = 1
+			bba_ww1_bomber2 = 1
+			bba_ww1_bomber3 = 1
+			bba_ww1_zeppelin2 = 1
 
 		# Air Doctrine
 		ww1_airdoctrine = 1

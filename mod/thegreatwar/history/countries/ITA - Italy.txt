@@ -182,6 +182,8 @@ recruit_character = ITA_marcello_amero_dastestella
 		# Air
 		ww1_fighter1 = 1
 		ww1_zeppelin1 = 1
+			bba_ww1_fighter1 = 1
+			bba_ww1_zeppelin1 = 1
 
 		# Engineering
 		electronic_mechanical_engineering = 1
@@ -277,8 +279,6 @@ recruit_character = ITA_marcello_amero_dastestella
 	set_technology = {
 
 		# Infantry
-		infantry_weapons = 1
-		ww1infantry_weapons1 = 1
 		ww1_infantry_equip1 = 1
 		support_weapons = 1
 		support_weapons2 = 1
@@ -360,6 +360,9 @@ recruit_character = ITA_marcello_amero_dastestella
 		ww1_fighter1 = 1
 		ww1_fighter1b = 1
 		ww1_zeppelin1 = 1
+			bba_ww1_fighter1 = 1
+			bba_ww1_fighter1b = 1
+			bba_ww1_zeppelin1 = 1
 
 		# Air Doctrine
 		ww1_airdoctrine = 1
@@ -414,10 +417,10 @@ recruit_character = ITA_marcello_amero_dastestella
 	create_equipment_variant={ name="Novara Class" type=light_cruiser_1910 parent_version = 1 obsolete=yes upgrades={ ship_gun_upgrade=0  ship_engine_upgrade=1 ship_reliability_upgrade=1 ship_anti_air_upgrade=0          } }
 	create_equipment_variant={ name="Magdeburg Class" type=light_cruiser_1910 parent_version = 2 obsolete=yes upgrades={ ship_gun_upgrade=0  ship_engine_upgrade=2 ship_reliability_upgrade=2 ship_anti_air_upgrade=0          } }
 	create_equipment_variant={ name="Graudenz Class" type=light_cruiser_1910 parent_version = 3 obsolete=yes upgrades={ ship_gun_upgrade=0  ship_engine_upgrade=2 ship_reliability_upgrade=2 ship_anti_air_upgrade=0          } }
-	create_equipment_variant={ name="Pillau Class" type=light_cruiser_1910 parent_version = 4 obsolete=no upgrades={ ship_gun_upgrade=5  ship_engine_upgrade=2 ship_reliability_upgrade=5 ship_anti_air_upgrade=5          } }
+	create_equipment_variant={ name="Pillau Class" type=light_cruiser_1910 parent_version = 4 obsolete=no upgrades={ ship_gun_upgrade=5  ship_engine_upgrade=2 ship_reliability_upgrade=5 ship_anti_air_upgrade=0          } }
 	create_equipment_variant={ name="Ascaro Class" type=destroyer_1900 parent_version = 1 obsolete=yes upgrades={     ship_anti_air_upgrade=0    ship_ASW_upgrade=0 destroyer_engine_upgrade=1    ship_torpedo_upgrade=5 } }
 	create_equipment_variant={ name="Ardito Class" type=destroyer_1906 parent_version = 0 obsolete=yes upgrades={     ship_anti_air_upgrade=0    ship_ASW_upgrade=0 destroyer_engine_upgrade=3    ship_torpedo_upgrade=0 } }
-	create_equipment_variant={ name="Pilo Class" type=destroyer_1910 parent_version = 0 obsolete=no upgrades={     ship_anti_air_upgrade=5    ship_ASW_upgrade=0 destroyer_engine_upgrade=2    ship_torpedo_upgrade=0 } }
+	create_equipment_variant={ name="Pilo Class" type=destroyer_1910 parent_version = 0 obsolete=no upgrades={     ship_anti_air_upgrade=0    ship_ASW_upgrade=0 destroyer_engine_upgrade=2    ship_torpedo_upgrade=0 } }
 	create_equipment_variant={ name="Atropo Class" type=coastal_submarine_1910 parent_version = 0 obsolete=yes upgrades={    ship_reliability_upgrade=4       sub_torpedo_upgrade=0 sub_stealth_upgrade=4 sub_engine_upgrade=4  } }
 	create_equipment_variant={ name="Nautilus Class" type=coastal_submarine_1910 parent_version = 1 obsolete=yes upgrades={    ship_reliability_upgrade=1       sub_torpedo_upgrade=0 sub_stealth_upgrade=1 sub_engine_upgrade=1  } }
 	create_equipment_variant={ name="Pullino Class" type=coastal_submarine_1910 parent_version = 2 obsolete=yes upgrades={    ship_reliability_upgrade=5       sub_torpedo_upgrade=5 sub_stealth_upgrade=2 sub_engine_upgrade=2  } }
@@ -519,6 +522,11 @@ recruit_character = ITA_marcello_amero_dastestella
 		ww1_seaplane1 = 1
 		ww1_bomber1 = 1
 		ww1_bomber2 = 1
+			bba_ww1_fighter2 = 1
+			bba_ww1_fighter2b = 1
+			bba_ww1_seaplane1 = 1
+			bba_ww1_bomber1 = 1
+			bba_ww1_bomber2 = 1
 
 		# Air Doctrine
 		ww1_airdoctrine_4 = 1
