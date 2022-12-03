@@ -128,7 +128,7 @@ Le mod The Great War a été possible grâce à la communauté, en particulier g
    - PrometheusNavagadro
    - NamekSurvivor
    - Maloghigno
-
+   - shmuft
 
 ## Mods inclus dans le mod
 
