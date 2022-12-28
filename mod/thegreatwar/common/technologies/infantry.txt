@@ -26,9 +26,10 @@ technologies = {
 		enable_equipments = {
 			infantry_equipment_0
 		}
-		
+	
 		enable_subunits = {
 			infantry
+			bicycle_battalion # Open Beta 0.20.2 "Spazio Vitale"
 		}
 		
 		path = {
@@ -1395,6 +1396,10 @@ technologies = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
+		bicycle_battalion = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
 		cavalry = {
 			defense = 0.01
 			breakthrough = 0.01
@@ -1434,6 +1439,10 @@ technologies = {
 		infantry = {
 			defense = 0.03
 			breakthrough = 0.03
+		}
+		bicycle_battalion = {
+			defense = 0.05
+			breakthrough = 0.05
 		}
 		infantry2 = {
 			defense = 0.03
