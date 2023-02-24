@@ -128,6 +128,8 @@ Le mod The Great War a été possible grâce à la communauté, en particulier g
    - NamekSurvivor
    - Maloghigno
    - shmuft
+   - default-guy
+   - FOREVERGWC
 
 ## Mods inclus dans le mod
 
