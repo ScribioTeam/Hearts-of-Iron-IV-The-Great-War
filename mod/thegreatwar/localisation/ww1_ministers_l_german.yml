@@ -1,4 +1,5 @@
-﻿l_english:
+l_german:
+###  Übersetzung von Proho  ###
  AFG_muhammad_sulaiman_khan:0 "Muhammad Sulaiman Khan"
  AFG_nadir_shah:0 "Nadir Shah"
  AFG_sardar_mahmud_tarzi:0 "Sardar Mahmud Tarzi"
@@ -1901,7 +1902,7 @@
  RUS_pyotr_nesterov:0 "Piotr Nesterov"
 
  RUS_grigori_rasputin:0 "Grigori Rasputin"
- RUS_grigori_rasputin_desc:0 "Mystic advisor of the royal family. The nobility is extremely dissatisfied with Rasputin because of his connections with the sectarians and his influence on tsar."
+ RUS_grigori_rasputin_desc:0 "Mystischer Berater der königlichen Familie. Der Adel ist mit Rasputin wegen seiner Verbindungen zu den Sektierern und seines Einflusses auf den Zaren äußerst unzufrieden."
  RUS_alexei_putilov:0 "Alexei Putilov"
  RUS_pyotr_struve:0 "Pyotr Struve"
 

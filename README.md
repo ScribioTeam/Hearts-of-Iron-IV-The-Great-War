@@ -130,6 +130,8 @@ Le mod The Great War a été possible grâce à la communauté, en particulier g
    - shmuft
    - default-guy
    - FOREVERGWC
+   - tg90nor
+   - Proho16
 
 ## Mods inclus dans le mod
 
