@@ -20,7 +20,7 @@
  ENG_ww1_tank_equipment_3:0 "Mark"
  ENG_ww1_tank_equipment_4:0 "Zwischenkriegs Panzer"
  ######################################
- ENG_gw_tank_equipment:0 "FT-17"
+ ENG_gw_tank_equipment:0 "Renault FT-17"
  ENG_gw_tank_equipment_short:0 "FT-17"
  # HOI4 TGW
  artillery_equipment_1914:0 "Frühe Artillerie"
@@ -28,39 +28,48 @@
  artillery_equipment_1930:0 "Geschleppte Artillerie"
  artillery_equipment_1930_short:0 "Artillerie"
  artillery_equipment_1930_desc:0 "Unter Artillerie versteht man großkalibrige Waffen wie Kanonen und Haubitzen, die von Besatzungen bedient werden und Munition weit über die effektive Reichweite von Personenwaffen hinaus verschießen können."
- infantry_equipment_short:0 "Infanterie eq."
+ infantry_equipment_short:0 "Infanterie Eq."
  infantry_equipment_0:0 "Infanterie-Grundausstattung"
- infantry_equipment_0_short:0 "Grund eq."
+ infantry_equipment_0_short:0 "Grund Eq."
  infantry_equipment_0_desc:0 "Die Grundausstattung der Infanteristen wurde vor dem Ersten Weltkrieg entwickelt."
  infantry_equipment_2_desc:0 "Persönliche und Mannschaftswaffen für die Infanterie sowie die verschiedenen anderen Ausrüstungsgegenstände, die ein Soldat benötigt."
  infantry_equipment_3_desc:0 "Persönliche und Mannschaftswaffen für die Infanterie sowie die verschiedenen anderen Ausrüstungsgegenstände, die ein Soldat benötigt."
  
  FRA_infantry_equipment_1921:0 "Thompson Maschinenpistole"
  FRA_infantry_equipment_1921_short:0 "Tommy Gun"
+ FRA_infantry_equipment_1921_desc:0 "Diese von Thompson entwickelte Maschinenpistole ist ein Hit: Sie wiegt weniger als fünf Kilogramm, ist leicht zu handhaben und kann eine beeindruckende Menge an Kugeln verschießen ... auf kurze Distanz ist sie eine Waffe ohne Rivalen."
 
  ENG_infantry_equipment_1921:0 "Thompson Maschinenpistole"
  ENG_infantry_equipment_1921_short:0 "Tommy Gun"
+ ENG_infantry_equipment_1921_short:0 "Diese von Thompson entwickelte Maschinenpistole ist ein Hit: Sie wiegt weniger als fünf Kilogramm, ist leicht zu handhaben und kann eine beeindruckende Menge an Kugeln verschießen ... auf kurze Distanz ist sie eine Waffe ohne Rivalen."
 
  USA_infantry_equipment_1921:0 "Thompson Maschinenpistole"
  USA_infantry_equipment_1921_short:0 "Tommy Gun"
+ USA_infantry_equipment_1921_desc:0 "Diese von Thompson entwickelte Maschinenpistole ist ein Hit: Sie wiegt weniger als fünf Kilogramm, ist leicht zu handhaben und kann eine beeindruckende Menge an Kugeln verschießen ... auf kurze Distanz ist sie eine Waffe ohne Rivalen."
 
  AUH_infantry_equipment_1921:0 "Thompson Maschinenpistole"
  AUH_infantry_equipment_1921_short:0 "Tommy Gun"
+ AUH_infantry_equipment_1921_desc:0 "Diese von Thompson entwickelte Maschinenpistole ist ein Hit: Sie wiegt weniger als fünf Kilogramm, ist leicht zu handhaben und kann eine beeindruckende Menge an Kugeln verschießen ... auf kurze Distanz ist sie eine Waffe ohne Rivalen."
 
  JAP_infantry_equipment_1921:0 "Thompson Maschinenpistole"
  JAP_infantry_equipment_1921_short:0 "Tommy Gun"
+ JAP_infantry_equipment_1921_desc:0 "Diese von Thompson entwickelte Maschinenpistole ist ein Hit: Sie wiegt weniger als fünf Kilogramm, ist leicht zu handhaben und kann eine beeindruckende Menge an Kugeln verschießen ... auf kurze Distanz ist sie eine Waffe ohne Rivalen."
 
  ITA_infantry_equipment_1921:0 "Thompson Maschinenpistole"
  ITA_infantry_equipment_1921_short:0 "Tommy Gun"
+ ITA_infantry_equipment_1921_desc:0 "Diese von Thompson entwickelte Maschinenpistole ist ein Hit: Sie wiegt weniger als fünf Kilogramm, ist leicht zu handhaben und kann eine beeindruckende Menge an Kugeln verschießen ... auf kurze Distanz ist sie eine Waffe ohne Rivalen."
 
  TUR_infantry_equipment_1921:0 "Thompson Maschinenpistole"
  TUR_infantry_equipment_1921_short:0 "Tommy Gun"
+ TUR_infantry_equipment_1921_desc:0 "Diese von Thompson entwickelte Maschinenpistole ist ein Hit: Sie wiegt weniger als fünf Kilogramm, ist leicht zu handhaben und kann eine beeindruckende Menge an Kugeln verschießen ... auf kurze Distanz ist sie eine Waffe ohne Rivalen."
 
  TUK_infantry_equipment_1921:0 "Thompson Maschinenpistole"
  TUK_infantry_equipment_1921_short:0 "Tommy Gun"
+ TUK_infantry_equipment_1921_desc:0 "Diese von Thompson entwickelte Maschinenpistole ist ein Hit: Sie wiegt weniger als fünf Kilogramm, ist leicht zu handhaben und kann eine beeindruckende Menge an Kugeln verschießen ... auf kurze Distanz ist sie eine Waffe ohne Rivalen."
 
  BRA_infantry_equipment_1921:0 "Thompson Maschinenpistole"
  BRA_infantry_equipment_1921_short:0 "Tommy Gun"
+ BRA_infantry_equipment_1921_desc:0 "Diese von Thompson entwickelte Maschinenpistole ist ein Hit: Sie wiegt weniger als fünf Kilogramm, ist leicht zu handhaben und kann eine beeindruckende Menge an Kugeln verschießen ... auf kurze Distanz ist sie eine Waffe ohne Rivalen."
 
  infantry_equipment_1921:0 "Infanterie Ausrüstung IV"
  infantry_equipment_1921_short:0 "Waffen IV"
@@ -80,7 +89,7 @@
 
  # HOI4 TGW
  bertha_artillery_equipment_1:0 "Belagerungs-Artillerie"
- bertha_artillery_equipment_1_desc:0 "Belagerungs-Artillerie"
+ bertha_artillery_equipment_1_desc:0 "Die Belagerungsartillerie umfasst die schwersten Geschütze mit den größten und zerstörerischsten Granaten, die dazu bestimmt sind, die gegnerischen Befestigungen unter einer Flut von Feuer und Stahl zu zertrümmern."
  bertha_artillery_equipment_2:0 "Schwere Artillerie"
  bertha_artillery_equipment_2_desc:0 "Schwere Artillerie"
  bertha_artillery_equipment_3:0 "Fortgeschrittene Schwere Artillerie"
@@ -111,4 +120,6 @@
  infantry_ww1_machinegun4_desc:0 "Ein leichtes Maschinengewehr (LMG) ist ein Maschinengewehr, das für den Einsatz durch einen einzelnen Soldaten mit oder ohne Assistenten konzipiert ist."
 
  train_equipment_ww1_old:0 "Alter Zug"
+ train_equipment_ww1_old_desc:0 "Lokomotiven alter Modelle, die bereits im Einsatz befindliche Waggons ziehen. Funktionstüchtig, aber sie müssen durch neue Fahrzeuge ersetzt werden."
  train_equipment_ww1_armored:0 "Früher Panzerzug"
+ train_equipment_ww1_armored_desc:0 "Dieser erste gepanzerte Zug wurde in unseren Militärwerkstätten entwickelt, indem eine mächtige kommerzielle Lokomotive mit Antipersonenwaffen, einer Handvoll kurzer Kanonen und Panzerplatten ausgerüstet wurde."
