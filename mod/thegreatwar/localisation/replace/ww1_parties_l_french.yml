@@ -188,4 +188,20 @@
  SWE_neutrality_party_long:0 "Allmänna Valmansförbundet"
  SWE_courtyard_government:0 "Borggårdsregeringen" 
  SWE_courtyard_government_long:0 "En partipolitiskt obunden, men kungalojal och konservativt präglad regering"
+
+ BUK_communism_party:0 "CPB"
+ BUK_communism_party_long:0 "Conseil du peuple boukhariote"
+ BUK_fascism_party:0 "OSB"
+ BUK_fascism_party_long:0 "Organisation soufiste de Boukharie"
+ BUK_democratic_party:0 "JB"
+ BUK_democratic_party_long:0 "Jeunes Boukhariotes"
+ BUK_neutrality_party:0 "Partisans des Mangudaï"
+
+ KHI_communism_party:0 "PSPKh"
+ KHI_communism_party_long:0 "Parti soviétique populaire du Khorezm"
+ KHI_fascism_party:0 "MBKh"
+ KHI_fascism_party_long:0 "Mouvement basmatchi khivain"
+ KHI_democratic_party:0 "CJPKh"
+ KHI_democratic_party_long:0 "Conseil jadidiste du peuple khivain"
+ KHI_neutrality_party:0 "Parti monarchiste" 
  

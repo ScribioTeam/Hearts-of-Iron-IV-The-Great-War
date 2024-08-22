@@ -32,13 +32,13 @@
  interwar_news.7.t:0 "La deuxième République espagnole est proclamée"
  interwar_news.7.d:0 "La deuxième République espagnole a été proclamée lorsque le roi Alphonse XIII a quitté le pays à la suite des élections municipales où les candidats anti-monarchistes ont remporté la majorité des voix."
  interwar_news.7.a:0 "¡Viva el Presidente!"
- # The Turkish National Movement
- interwar_news.8.t:0 "Mouvement nationaliste en Turquie"
+ # The Turkish National Movement + The Greco-Turkish War
+ interwar_news.8.t:0 "Guerre d'indépendance turque"
  interwar_news.8.d:0 "En conséquence de la défaite de l'Empire ottoman dans la Grande Guerre et l'occupation subséquente de Constantinople et la partition de l'Empire ottoman par les Alliés, les Ottomans ont vu le mouvement comme une partie d'une conspiration internationale contre eux. Certains révolutionnaires turcs se sont rebellés contre ce cloisonnement !"
  interwar_news.8.a:0 "Est-ce que Mustafa Kemal va réussir ?"
-  # The Greco-Turkish War
+ # Occupation de Smyrne
  interwar_greco_turkish_war:0 "Guerre gréco-turque"
- interwar_news.9.t:0 "Guerre gréco-turque"
+ interwar_news.9.t:0 "Occupation de Smyrne"
  interwar_news.9.d:0 "Les Grecs ont reçu l'ordre d'occuper Smyrne par la Triple Entente dans le cadre de la partition de l'Empire ottoman. L'Empire ottoman est à genoux mais toujours vivant !"
  interwar_news.9.a:0 "Les Grecs peuvent-ils gagner seuls ?"
   # Treaty of Lausanne

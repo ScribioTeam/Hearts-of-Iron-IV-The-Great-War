@@ -33,13 +33,13 @@
  interwar_news.7.t:0 "Die Zweite Spanische Republik wird proklamiert"
  interwar_news.7.d:0 "Die Zweite Spanische Republik wurde proklamiert, weil König Alfons XIII. das Land nach den Kommunalwahlen verließ, bei denen antimonarchistische Kandidaten die Mehrheit der Stimmen erhielten."
  interwar_news.7.a:0 "¡Viva el Presidente!"
- # Die Türkische Nationale Bewegung
- interwar_news.8.t:0 "Nationalistische Bewegung in der Türkei"
+ # Die Türkische Nationale Bewegung + Der Griechisch-Türkische Krieg
+ interwar_news.8.t:0 "Türkischer Befreiungskrieg"
  interwar_news.8.d:0 "Als Folge der Niederlage des Osmanischen Reiches im Ersten Weltkrieg und der anschließenden Besetzung Konstantinopels und der Aufteilung des Osmanischen Reiches durch die Alliierten. Die Osmanen betrachteten die Bewegung als Teil einer internationalen Verschwörung gegen sie. Einige türkische Revolutionäre lehnten sich gegen diese Aufteilung auf!"
  interwar_news.8.a:0 "Wird Mustafa Kemal erfolgreich sein?"
-  # Der Griechisch-Türkische Krieg
+ # Besetzung von Izmir
  interwar_greco_turkish_war:0 "Griechisch-Türkische Krieg"
- interwar_news.9.t:0 "Griechisch-Türkische Krieg"
+ interwar_news.9.t:0 "Besetzung von Izmir"
  interwar_news.9.d:0 "Im Rahmen der Teilung des Osmanischen Reiches erhalten die Griechen von der Triple Entente den Befehl, in Smyrna zu landen. Das Osmanische Reich liegt auf den Knien, aber es lebt noch!"
  interwar_news.9.a:0 "Können die Griechen allein gewinnen?"
   # Vertrag von Lausanne

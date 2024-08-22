@@ -274,6 +274,7 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = SOV_interwar_SpreadCommunism_GER
 		prerequisite = {
@@ -303,6 +304,7 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = SOV_interwar_SpreadCommunism_FRA
 		prerequisite = {
@@ -332,6 +334,7 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = SOV_interwar_WhiteRussiaProblem
 		icon = GFX_focus_eng_expose_the_belly_of_the_bear
@@ -368,6 +371,7 @@ focus_tree = {
 			add_political_power = 25
 		}
 	}
+
 	focus = {
 		id = SOV_interwar_poland
 		icon = GFX_goal_generic_position_armies
@@ -388,6 +392,7 @@ focus_tree = {
 			add_stability = -0.03
 		}
 	}
+
 	focus = {
 		id = SOV_interwar_CeaseFirePoland		# IRL Polish-Soviet War ended with a cease-fire on 18 October 1920 and The Peace of Riga was signed on 18 March 1921
 		icon = GFX_focus_generic_polish_deal
@@ -416,6 +421,7 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = SOV_interwar_WarPoland
 		mutually_exclusive = {
@@ -443,6 +449,7 @@ focus_tree = {
 			add_manpower = 10000
 		}
 	}
+
 	focus = {
 		id = SOV_interwar_balticstates
 		icon = GFX_focus_eng_move_to_secure_the_dominions
@@ -470,6 +477,7 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = SOV_interwar_Ukraine
 		icon = GFX_goal_generic_position_armies
@@ -490,6 +498,7 @@ focus_tree = {
 			add_stability = -0.02
 		}
 	}
+
 	focus = {
 		id = SOV_interwar_CeaseFireUkraine
 		icon = GFX_goal_generic_major_alliance
@@ -519,6 +528,7 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = SOV_interwar_WarUkraine
 		mutually_exclusive = {
@@ -643,6 +653,7 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = SOV_ww1_recover_after_civwar
 		icon = GFX_goal_generic_construction
@@ -715,6 +726,7 @@ focus_tree = {
 		x = 2
 		y = 2
 	}
+
 	focus = {
 		id = SOV_ww1_volunteers
 		icon = GFX_goal_generic_allies_build_infantry
@@ -737,6 +749,7 @@ focus_tree = {
 		x = 1
 		y = 3
 	}
+
 	focus = {
 		id = SOV_ww1_execute_imperial_family
 		icon = GFX_hoi4tgw_knifeintheback
@@ -771,6 +784,7 @@ focus_tree = {
 		x = 1
 		y = 4
 	}
+
 	focus = {
 		id = SOV_ww1_claim_victory
 		available = {
@@ -874,6 +888,176 @@ focus_tree = {
 
 
 	focus = {
+		id = SOV_interwar_KazakhSteppe
+		icon = GFX_goal_generic_position_armies
+
+		available = {
+			has_global_flag = kis_treaty_of_versailles
+			SOV = {
+				controls_state = 585
+				has_government = communism
+			}
+		}
+
+		x = 25
+		y = 11
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = SOV_interwar_SupportTheYoungBukharanActivists # Support the Young Bukharan Activists
+		icon = GFX_focus_YUG_pan_slavic_congress
+		prerequisite = {
+			focus = SOV_interwar_KazakhSteppe
+		}
+
+		available = {
+			NOT = {
+				country_exists = BUK
+			}
+		}
+
+		cost = 10
+		x = 26
+		y = 12
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			BUK = {
+				add_popularity = {
+					ideology = communism
+					popularity = 1.0
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SOV_interwar_BukharanPeoplesSovietRepublic # Bukharan People's Soviet Republic
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = {
+			focus = SOV_interwar_SupportTheYoungBukharanActivists
+		}
+
+		available = {
+			NOT = {
+				country_exists = BUK
+			}
+		}
+
+		cost = 10
+		x = 26
+		y = 13
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			date > 1920.1.1
+			country_exists = RUS
+			RUS = {
+				controls_state = 814
+				NOT = {
+					has_government = communism
+				}
+			}
+		}
+
+		completion_reward = {
+
+			BUK = {
+				transfer_state = 814
+			}
+
+			RUS = {
+				create_wargoal = {
+					target = BUK
+					type = take_state
+					generator = {
+						814
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SOV_interwar_KhorezmPeoplesSovietRepublic # Khorezm People's Soviet Republic
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = {
+			focus = SOV_interwar_KazakhSteppe
+		}
+
+		available = {
+			NOT = {
+				country_exists = KHI
+			}
+		}
+
+		cost = 10
+		x = 24
+		y = 13
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			date > 1920.1.1
+			country_exists = RUS
+			RUS = {
+				controls_state = 813
+				NOT = {
+					has_government = communism
+				}
+			}
+		}
+
+		completion_reward = {
+
+			KHI = {
+				transfer_state = 813
+			}
+
+			RUS = {
+				create_wargoal = {
+					target = KHI
+					type = take_state
+					generator = {
+						813
+					}
+				}
+			}
+
+			hidden_effect = {
+				KHI = {
+					add_popularity = {
+						ideology = communism
+						popularity = 1.0
+					}
+				}
+			}
+		}
+	}
+
+
+
+
+	focus = {
 		id = SOV_ww1_complete_revolution
 		available = {
 			NOT = {
@@ -898,6 +1082,7 @@ focus_tree = {
 		x = 7
 		y = 2
 	}
+
 	focus = {
 		id = SOV_ww1_soviet_constitution
 		icon = GFX_goal_generic_forceful_treaty
@@ -914,6 +1099,7 @@ focus_tree = {
 		x = 8
 		y = 3
 	}
+
 	focus = {
 		id = SOV_ww1_foster_new_values
 		icon = GFX_goal_generic_propaganda
@@ -942,6 +1128,7 @@ focus_tree = {
 		x = 9
 		y = 4
 	}
+
 	focus = {
 		id = SOV_ww1_SWP
 		icon = GFX_goal_generic_production
@@ -963,6 +1150,7 @@ focus_tree = {
 		x = 9
 		y = 5
 	}
+
 	focus = {
 		id = SOV_ww1_workers_paradise
 		icon = GFX_goal_support_communism

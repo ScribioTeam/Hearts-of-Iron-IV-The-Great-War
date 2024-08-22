@@ -32,13 +32,13 @@
  interwar_news.7.t:0 "The Second Spanish Republic is Proclaimed"
  interwar_news.7.d:0 "The Second Spanish Republic was proclaimed when King Alfonso XIII left the country following municipal elections where anti-monarchist candidates won the majority of votes."
  interwar_news.7.a:0 "¡Viva el Presidente!"
- # The Turkish National Movement
- interwar_news.8.t:0 "Nationalist Movement in Turkey"
+ # The Turkish National Movement + The Greco-Turkish War
+ interwar_news.8.t:0 "Turkish War of Independence"
  interwar_news.8.d:0 "As a consequence of the defeat of the Ottoman Empire in The Great War and the subsequent occupation of Constantinople and partitioning of the Ottoman Empire by the Allies. The Ottomans saw the movement as part of an international conspiracy against them. Some Turkish revolutionaries rebelled against this partitioning!"
  interwar_news.8.a:0 "Wiil Mustafa Kemal succeed?"
-  # The Greco-Turkish War
+ # Occupation of Smyrna
  interwar_greco_turkish_war:0 "Greco-Turkish War"
- interwar_news.9.t:0 "Greco-Turkish War"
+ interwar_news.9.t:0 "Occupation of Smyrna"
  interwar_news.9.d:0 "The Greeks received an order to land in Smyrna by the Triple Entente as part of the partition of the Ottoman Empire. The Ottoman Empire is on its knees but still alive!"
  interwar_news.9.a:0 "Can the Greeks win alone?"
   # Treaty of Lausanne

@@ -184,3 +184,18 @@
  SWE_courtyard_government:0 "Borggårdsregeringen" 
  SWE_courtyard_government_long:0 "En partipolitiskt obunden, men kungalojal och konservativt präglad regering"
  
+ BUK_communism_party:0 "BLR"
+ BUK_communism_party_long:0 "Bucharska Rada Ludowa"
+ BUK_fascism_party:0 "BOS"
+ BUK_fascism_party_long:0 "Bucharska Organizacja Suficka"
+ BUK_democratic_party:0 "BMŻ"
+ BUK_democratic_party_long:0 "Bucharska Młodzieżówka"
+ BUK_neutrality_party:0 "Dynastia Mongkutów"
+
+ KHI_communism_party:0 "LRC"
+ KHI_communism_party_long:0 "Ludowa Rada Chorezmu"
+ KHI_fascism_party:0 "RBC"
+ KHI_fascism_party_long:0 "Ruch Basmaczy w Chiwie"
+ KHI_democratic_party:0 "RDC"
+ KHI_democratic_party_long:0 "Ludowe Rady Dżadidystów w Chiwie"
+ KHI_neutrality_party:0 "Uzurpatorzy Chanatu" 

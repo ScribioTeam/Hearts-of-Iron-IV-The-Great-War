@@ -313,7 +313,7 @@ news_event = {
 }
 
 #____________________________________________________________
-# The Turkish National Movement # Open Beta 0.5
+# The Turkish National Movement (Turkey declares war on Greece and the Ottoman Empire) # Open Beta 0.5
 #____________________________________________________________
 news_event = {
 	id = interwar_news.8
@@ -321,11 +321,11 @@ news_event = {
 	desc = interwar_news.8.d
 	picture = EVENT_hoi4tgw_turkish_national_movement
 	major = yes
+	is_triggered_only = yes
 	trigger = {
-		date > 1919.5.5
-		has_global_flag = kis_treaty_of_versailles
 		NOT = {
 			has_global_flag = interwar_turkish_national_movement
+			has_global_flag = interwar_greco_turkish_war
 		}
 	}
 	mean_time_to_happen = {
@@ -333,12 +333,31 @@ news_event = {
 	}
 	immediate = {
 		set_global_flag = interwar_turkish_national_movement
+		set_global_flag = interwar_greco_turkish_war
 		hidden_effect = {
-			# Started in 1910 or 1914 
-			if = {
-				limit = {
-					has_start_date < 1919.1.1
+			TUK = {
+				kill_country_leader = yes
+				create_country_leader = { 
+					name = TUR_mustafa_kemal
+					desc = TUR_mustafa_kemal_DESC 
+					picture = "gfx/hoi4tgw_portraits/TUR/country_leaders/TUR_mustafa_kemal.dds" 
+					expire = "1935.1.1" 
+					ideology = autocracy
+					traits = { }
 				}
+				set_politics = {
+					ruling_party = neutrality
+					last_election = "1919.7.1"
+					election_frequency = 48
+					elections_allowed = yes
+				}
+				set_popularities = {
+					democratic = 14
+					fascism = 6
+					communism = 12
+					neutrality = 68
+				} 	
+			}
 				# Territorial changes
 				if = {
 					limit = {
@@ -374,27 +393,26 @@ news_event = {
 				TUK = {
 					load_oob = "TUK_1919"
 				}
-				# Start of the War
+				# Start of the War against Ottoman Empire
 				TUK = {
 					declare_war_on = {
 						target = TUR
-						type = annex_everything
+						type = annex_everything							# https://en.wikipedia.org/wiki/Turkish_War_of_Independence
 					}
 				}
-				# For the Greco-Turkish War
-				GRE = {
-					country_event = {
-						days = 13
-						id = ww1_greece.6
+				# Start of the War against Greece
+				TUK = {
+					declare_war_on = {
+						target = GRE
+						type = take_state
+						generator = { 339 }								# https://en.wikipedia.org/wiki/Greco-Turkish_War_(1919%E2%80%931922)
 					}
 				}
-			}
-			else = {
-				news_event = {
-					days = 4
-					id = interwar_news.9
+
+				add_named_threat = {
+					threat = 7
+					name = interwar_news.8.t
 				}
-			}
 		}
 	}
 	option = {
@@ -406,7 +424,7 @@ news_event = {
 }
 
 #____________________________________________________________
-# The Greco-Turkish War # Open Beta 0.5
+# Occupation of Smyrna
 #____________________________________________________________
 news_event = {
 	id = interwar_news.9
@@ -415,13 +433,12 @@ news_event = {
 	picture = EVENT_hoi4tgw_greco_turkish_war
 	major = yes
 	is_triggered_only = yes
-	trigger = {
-		NOT = {
-			has_global_flag = interwar_greco_turkish_war
-		}
-	}
 	immediate = {
-		set_global_flag = interwar_greco_turkish_war
+		hidden_effect = {
+			GRE = {
+				transfer_state = 339 # Smyrna							# https://en.wikipedia.org/wiki/Occupation_of_Smyrna
+			}
+		}
 	}
 	option = {
 		name = interwar_news.9.a

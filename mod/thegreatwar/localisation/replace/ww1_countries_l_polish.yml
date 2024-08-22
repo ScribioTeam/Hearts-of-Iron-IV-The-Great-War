@@ -445,12 +445,16 @@
  TUN_fascism_ADJ:0 "tunez."
  TUR_fascism:0 "Imperium Osmańskie"
  TUR_fascism_DEF:0 "Imperium Osmańskie"
+ TUR_democratic:0 "Republika Turecka" # NEW
  TUR_democratic_DEF:0 "Republika Turecka"
  TUR_neutrality:0 "Imperium Osmańskie"
  TUR_neutrality_DEF:0 "Imperium Osmańskie"
  TUR_communism_DEF:0 "Turecka Republika Socjalistyczna"
  TUR_fascism_ADJ:0 "osmań."
  TUR_neutrality_ADJ:0 "osmań."
+
+ TUR_liberalism:0 "Republika Turecka" # FIXED WRONG COUNTRY NAME IN DEMOCRACY (LITERALLY LIBERALISM)
+ TUR_liberalism_DEF:0 "Republika Turecka" # FIXED WRONG COUNTRY NAME IN DEMOCRACY (LITERALLY LIBERALISM) 
 
  TUK_neutrality:0 "Turcja"
  TUK_neutrality_DEF:0 "Turcja"

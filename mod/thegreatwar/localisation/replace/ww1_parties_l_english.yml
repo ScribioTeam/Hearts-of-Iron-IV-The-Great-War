@@ -188,4 +188,20 @@
  SWE_neutrality_party_long:0 "Allmänna Valmansförbundet"
  SWE_courtyard_government:0 "Borggårdsregeringen" 
  SWE_courtyard_government_long:0 "En partipolitiskt obunden, men kungalojal och konservativt präglad regering"
+
+ BUK_communism_party:0 "BPC"
+ BUK_communism_party_long:0 "Bukharan People's Council"
+ BUK_fascism_party:0 "BSO"
+ BUK_fascism_party_long:0 "Bukharan Sufist Organisation"
+ BUK_democratic_party:0 "YBU"
+ BUK_democratic_party_long:0 "Young Bukharans"
+ BUK_neutrality_party:0 "Manghud Dynasty"
+ 
+ KHI_communism_party:0 "KPS"
+ KHI_communism_party_long:0 "Khorezm People's Soviet"
+ KHI_fascism_party:0 "KBM"
+ KHI_fascism_party_long:0 "Khivan Basmachi Movement"
+ KHI_democratic_party:0 "KJC"
+ KHI_democratic_party_long:0 "Khivan People's Jadid Councils"
+ KHI_neutrality_party:0 "Khanate Pretenders" 
  

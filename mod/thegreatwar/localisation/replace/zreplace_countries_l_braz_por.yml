@@ -159,6 +159,7 @@
  TUR_democratic_ADJ:0 "Turco"
  TUR_neutrality_ADJ:0 "Turco"
  TUR_communism_ADJ:0 "Turco"
+ TUR_liberalism:0 "República da Turquia" # FIXED WRONG COUNTRY NAME IN DEMOCRACY (LITERALLY LIBERALISM)
  GRE_fascism:0 "União Nacional da Grécia"
  GRE_democratic:0 "República Helênica"
  GRE_neutrality:0 "Grécia"

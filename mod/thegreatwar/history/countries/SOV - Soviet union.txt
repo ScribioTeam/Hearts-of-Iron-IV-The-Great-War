@@ -390,6 +390,10 @@ if = {
 		ww1_light_tank = 1
 		ww1_heavy_tank = 1
 
+		ww1_armored_car_2__nostepback = 1
+		ww1_light_tank__nostepback = 1
+		ww1_heavy_tank__nostepback = 1
+
 		# Artillery
 		light_field_gun2 = 1
 		heavy_field_gun2 = 1
