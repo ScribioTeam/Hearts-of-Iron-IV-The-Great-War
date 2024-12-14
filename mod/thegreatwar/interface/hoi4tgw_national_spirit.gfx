@@ -45,7 +45,6 @@ spriteTypes = {
 		texturefile = "gfx/hoi4tgw_national_spirit/SER_BlackHand.dds"
 	}
 
-
 	spriteType = {
 		name = "GFX_idea_USA_ww1_us_war_department"
 		texturefile = "gfx/hoi4tgw_national_spirit/us_war_department.dds"
