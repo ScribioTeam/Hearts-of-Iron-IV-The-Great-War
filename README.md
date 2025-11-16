@@ -1,52 +1,82 @@
 ﻿# Hearts of Iron IV: The Great War
+> Traduction française améliorée
 
-----------
-[**Download on Steam**](http://steamcommunity.com/sharedfiles/filedetails/?id=699709023) | [**Download on Mod DB**](http://www.moddb.com/mods/hearts-of-iron-iv-the-great-war1) | [**Download on Nexus Mods**](https://www.nexusmods.com/heartsofironiv/mods/4?tab=description)
+Retrouvez-nous sur le [Discord des traducteurs francophones](https://discord.gg/9Z9EXJKyWs).
 
-**Supported Languages:**
-- English
-- French (Integrated in the Mod)
-- German (Integrated in the Mod, mainly made by Proho16)
-- Russian (Integrated in the Mod, thanks to the [Community of Strategium.ru](https://www.strategium.ru))
-- Japanese ([+JP: The Great War](https://steamcommunity.com/sharedfiles/filedetails/?id=854550667) | [+JP: The Great War NEW](https://steamcommunity.com/sharedfiles/filedetails/?id=1886322088))
-- Polish ([The Great War: Polskie Tłumaczenie](http://steamcommunity.com/sharedfiles/filedetails/?id=1132448900))
-- Turkish ([The Great War - Türkçe Yama](https://steamcommunity.com/sharedfiles/filedetails/?id=2489532577))
-- Chinese ([Chinese Translation](https://steamcommunity.com/sharedfiles/filedetails/?id=1898664110) or [Old Chinese Translation](https://steamcommunity.com/sharedfiles/filedetails/?id=1447670167))
-- Korean ([The Great War - Korean Translation](https://steamcommunity.com/sharedfiles/filedetails/?id=1923476226) | [Mirror](https://hearts-of-iron-4.smods.ru/archives/4568))
-- Brazilian Portuguese (Integrated in the Mod, experimental stage)
-- Spanish (Integrated in the Mod, experimental stage)
+## Présentation
 
-⚠️ Warning ⚠️ Old Saves may not work with newer versions of the Mod
+### Motivation
 
-**The Great War** has been created by Wolferos with the help of the Community.
+**The Great War** a été créé par Wolferos avec l'aide de la communauté et fait partie des meilleurs mods pour Hearts of Iron IV.
 
-Wolferos is a small independent game development studio founded in 2015. More Information about Wolferos on [Facebook](https://www.facebook.com/WolferosProductions), [Twitter](https://twitter.com/WolferosProd) and [Youtube](https://www.youtube.com/c/WolferosProductions).
+Ce dépôt a pour but d'améliorer la traduction française de ce mod.
 
-----------
-> **How to Install:**
->
-> The folder that stores mods for the game is:
->
+### Organisation
+
+La branche *develop* contient le mod ainsi que des améliorations de la traduction française compatibles avec la version anglais.
+Ces modifications seront intégrées au patch suivant par Wolferos.
+
+La branche *fr+* contient en plus des améliorations non compatibles avec la version anglaise qui sont publiées dans [un mod à part](https://steamcommunity.com/sharedfiles/filedetails/?id=1406871832).
+
+### Tester la traduction améliorée
+
+Si vous ne comptez pas améliorer par vous même la traduction, [installez la traduction améliorée en vous abonnant au workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1406871832).
+
+Si vous comptez modifier la traduction, 2 possibilités s'offre à vous
+
+#### Paratranz
+
+Si vous ne l'avez pas déjà, créer un compte GitHub et candidatez [au projet](https://paratranz.cn/projects/17009).
+
+#### GitHub
+
+**Attention** : Cette manière de contribuer est bien plus technique !
+
+- [créez un fork de ce projet](https://help.github.com/articles/fork-a-repo/)
+- double-cliquez sur exporter/TGWmodExporter.jar dans le dépôt cloné pour créer exporter la traduction française améliorée du mod (cela crée un dossier TGW_FR dans le dépôt)
+- mettre le dossier TGW_FR et le fichier TGW_FR.mod dans le dossier de mod de HoI4
 > - Windows: ...\Documents\Paradox Interactive\Hearts of Iron IV\mod\
 > - Linux: ~/.paradoxinteractive/Hearts of Iron IV/mod/ or ~/.local/share/Paradox Interactive/Hearts of Iron IV/mod/
 > - Mac: ~/Documents/Paradox Interactive/Hearts of Iron IV/mod/
->
-> Manually downloaded mods should include a .mod text file along with a folder. If so, the files can simply be dropped into the mod file. If one is downloading a newer version of a mod they already have installed, one should remove the older files first.
->
-> **How to Debug:**
-> Launch the Game in Debug Mod with the **-debug** option.
 
-**Usefull Links**
+## Contribuer à la traduction française améliorée
 
- - [Modding](https://hoi4.paradoxwikis.com/Modding)
- - [Console Commands](https://hoi4.paradoxwikis.com/Console_commands)
- - [Scopes](https://hoi4.paradoxwikis.com/Scopes)
- - [Conditions](https://hoi4.paradoxwikis.com/Triggers)
- - [Commands](https://hoi4.paradoxwikis.com/Effect)
- - [Modifiers](https://hoi4.paradoxwikis.com/Modifiers)
- - [Event Modding](https://hoi4.paradoxwikis.com/Event_modding)
+### Indiquer les erreurs
+Si vous trouvez une erreur de traduction, de syntaxe, d'orthographe ...
+Merci de nous les reporter [dans ce sujet](http://forum.reseau-js.com/topic/95287-traduction-the-great-war-pour-hoi-4/)
 
-THE FOLLOWING PEOPLE ALSO CONTRIBUTED ON THE PROJECT
+### Traduire/corriger des erreurs
+
+Pour tout contenu compatible avec la version anglaise, merci de réaliser votre travail sur la branche *develop*. Sinon utilisez la branche *fr+*.
+
+Traduisez/corrigez les erreurs sur [votre fork](https://help.github.com/articles/fork-a-repo/) puis [faites un pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/).
+
+[Voici d'autres ressources pour apprendre à utiliser GitHub](https://try.github.io/).
+
+### Ajouter des descriptions de matériel, de focus ...
+
+La localisation (textes du jeu dans une langue) n'est pas complète en anglais. Il manque des descriptions de matériel, de focus ...
+Au delà de la traduction française, ajouter des descriptions rendre dans notre projet d'avoir le mod The Great War utilisable en français.
+Il ne s'agit plus ici de traduire du texte anglais mais de se documenter et de faire une synbthèse et de l'inclure dans le jeu.
+
+Ce travail se partage de la même façon que la traduction et la correction d'erreurs.
+
+## Remerciements pour la traduction française
+
+Les personnes suivantes ont participé à la traduction française :
+- Polemarque
+- AlainEtCo
+- Mindeufair
+- GABRIELN13
+- Mouchi
+
+## Autres remerciements
+
+- Elfryc pour [la traduction de Hearts of Iron IV](http://forum.reseau-js.com/topic/93629-traduction-am%C3%A9lior%C3%A9e-jean-de-lattre-de-tassigny/)
+- Jay's pour [son let's play avec notre traduction](https://www.youtube.com/watch?v=mrOWLOiDlpI&list=PLwN5tmMR349LSGTZyDeUrQK9xweMiMz4i) qui donne un sens à notre travail et qui exhibe des choses à corriger
+
+### Remerciements pour le mod The Great War
+Le mod The Great War a été possible grâce à la communauté, en particulier grâce à :
 
    - Dizzle
    - Kaiser Anony
@@ -117,6 +147,9 @@ THE FOLLOWING PEOPLE ALSO CONTRIBUTED ON THE PROJECT
    - dungeon-slave
    - Benjacho
    - Xaelor
+
+## Mods inclus dans le mod
+
 ----------
    - [Flickering Flags Fix](http://steamcommunity.com/sharedfiles/filedetails/?id=850835220) made by Chairman Meow
    - [Austro-Hungarians Voices](http://steamcommunity.com/sharedfiles/filedetails/?id=946923873) made by Geodomus
